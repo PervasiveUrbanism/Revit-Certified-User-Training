@@ -2,8 +2,16 @@
 
 A structured Revit Certified User training programme with lesson plans, exercises, BIM workflows, and certification preparation materials.
 
+## Support Page
+
+The root `index.html` is the support page for the in-house Revit user training programme. It includes the course format, session schedule, resource links, and placeholders for dates and exercise files.
+
+Open it locally in a browser, or publish this repository with GitHub Pages using the `main` branch and root folder.
+
 ## Lesson Structure
 
+- `index.html` is the support page.
+- `schedule.md` is the editable course schedule.
 - `lessons/` contains the lesson content.
 - `templates/lesson-template.md` is the starting point for each new lesson.
 - `assets/` can hold screenshots, diagrams, sample images, and supporting media.
