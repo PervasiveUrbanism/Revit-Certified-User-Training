@@ -5,26 +5,29 @@ The programme is structured as short, practical one-hour sessions suitable for d
 !!! info "Dates"
     The schedule below currently uses `TBC` placeholders. Replace these with confirmed calendar dates once the training slots are agreed.
 
+!!! note "Location and lunch"
+    Sessions will take place in the upstairs meeting room. Pret lunch will be generously provided.
+
 ## Core Schedule
 
-| Week | Session | Date | Topic | Main Exercise |
-| --- | --- | --- | --- | --- |
-| 1 | 1 | TBC | [Introduction to Revit and Interface](session-01-getting-started.md) | Open a project, navigate views, select and modify elements |
-| 1 | 2 | TBC | [Levels, Grids and Basic Setup](session-02-levels-grids.md) | Create levels, add grids, rename views, align datums |
-| 2 | 3 | TBC | [Walls, Doors and Windows](session-03-walls-doors-windows.md) | Build a simple floor plan and add hosted elements |
-| 2 | 4 | TBC | [Floors, Roofs and Ceilings](session-04-floors-roofs-ceilings.md) | Create floors, add a roof, create a reflected ceiling plan |
-| 3 | 5 | TBC | [Views, Visibility and Graphics](session-05-views-visibility-graphics.md) | Apply VG overrides, create view templates, troubleshoot visibility |
-| 3 | 6 | TBC | [Annotation and Dimensions](session-06-annotation-dimensions.md) | Dimension a plan, tag doors and windows, create annotated views |
-| 4 | 7 | TBC | [2D Drafting and Detailing](session-07-drafting-detailing.md) | Create a wall section detail with filled regions and annotations |
-| 4 | 8 | TBC | [Sections, Elevations and Callouts](session-08-sections-elevations-callouts.md) | Create sections, elevations, and enlarged callout plans |
-| 5 | 9 | TBC | [Sheets and Printing](session-09-sheets-printing.md) | Create sheets, place views, export PDFs |
-| 5 | 10 | TBC | [Components and Basic Families](session-10-components-families.md) | Load families, modify types, place furniture and components |
-| 6 | 11 | TBC | [Basic Family Editing](session-11-family-editing.md) | Create a simple parametric box family |
-| 6 | 12 | TBC | [Schedules and Quantities](session-12-schedules-quantities.md) | Create door, room, and quantity schedules |
-| 7 | 13 | TBC | [Rooms, Areas and Tags](session-13-rooms-areas-tags.md) | Create rooms, tag rooms, generate schedules and colour plans |
-| 7 | 14 | TBC | [Linked Models and Coordination Basics](session-14-linked-models-coordination.md) | Link a model, adjust visibility, test shared coordinate workflows |
-| 8 | 15 | TBC | [Worksharing and Collaboration Basics](session-15-worksharing-collaboration.md) | Open a local file, borrow elements, sync changes, manage worksets |
-| 8 | 16 | TBC | [Troubleshooting Workshop and Mock Review](session-16-troubleshooting-mock-review.md) | Solve prepared scenarios and review exam-style workflows |
+| Session | Date | Topic |
+| --- | --- | --- |
+| 1 | TBC | [Introduction to Revit and Interface](session-01-getting-started.md) |
+| 2 | TBC | [Levels, Grids and Basic Setup](session-02-levels-grids.md) |
+| 3 | TBC | [Walls, Doors and Windows](session-03-walls-doors-windows.md) |
+| 4 | TBC | [Floors, Roofs and Ceilings](session-04-floors-roofs-ceilings.md) |
+| 5 | TBC | [Views, Visibility and Graphics](session-05-views-visibility-graphics.md) |
+| 6 | TBC | [Annotation and Dimensions](session-06-annotation-dimensions.md) |
+| 7 | TBC | [2D Drafting and Detailing](session-07-drafting-detailing.md) |
+| 8 | TBC | [Sections, Elevations and Callouts](session-08-sections-elevations-callouts.md) |
+| 9 | TBC | [Sheets and Printing](session-09-sheets-printing.md) |
+| 10 | TBC | [Components and Basic Families](session-10-components-families.md) |
+| 11 | TBC | [Basic Family Editing](session-11-family-editing.md) |
+| 12 | TBC | [Schedules and Quantities](session-12-schedules-quantities.md) |
+| 13 | TBC | [Rooms, Areas and Tags](session-13-rooms-areas-tags.md) |
+| 14 | TBC | [Linked Models and Coordination Basics](session-14-linked-models-coordination.md) |
+| 15 | TBC | [Worksharing and Collaboration Basics](session-15-worksharing-collaboration.md) |
+| 16 | TBC | [Troubleshooting Workshop and Mock Review](session-16-troubleshooting-mock-review.md) |
 
 ## Session Overview
 
