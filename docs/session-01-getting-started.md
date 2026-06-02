@@ -13,6 +13,7 @@ Understand the Revit workspace, open a project, navigate views, and recognise th
 ## Key Concepts
 
 - BIM vs CAD
+- MacLeamy Curve
 - Project Browser
 - Properties Palette
 - Ribbon tools
@@ -24,6 +25,16 @@ Understand the Revit workspace, open a project, navigate views, and recognise th
 ## Demonstration
 
 Introduce Revit as a coordinated BIM model rather than a set of disconnected CAD drawings. Show how plans, sections, elevations, schedules, and sheets all read from the same project model.
+
+### MacLeamy Curve
+
+The MacLeamy Curve is a useful way to explain why BIM changes the design process. It compares the ability to influence project outcomes, the cost of making changes, and where design effort usually happens.
+
+![MacLeamy Curve showing effort, cost of change, traditional design process, and preferred design process](assets/macleamy-curve.jpg)
+
+Source: [DDG Global, "MacLeamy Curve - How BIM affects the design process"](https://www.ddg.global/post/macleamy-curve-how-bim-affects-the-design-process).
+
+The key lesson for Revit users is that BIM rewards earlier thinking. Coordinated models, shared information, and earlier collaboration help teams make important decisions while they are still relatively cheap and easy to change.
 
 Then orient learners around the interface:
 
@@ -37,17 +48,19 @@ Then orient learners around the interface:
 ## Exercise
 
 1. Open Revit and create a new architectural project.
-2. Find the Project Browser and Properties Palette.
-3. Open a floor plan, elevation, section, and 3D view.
-4. Practice zooming, panning, orbiting, and switching between views.
-5. Select model elements using click, window selection, tab select, and filters.
-6. Use move, copy, rotate, and temporary hide/isolate.
-7. Try trim/extend, align, offset, mirror, split, array, scale, pin/unpin, and copy/paste aligned on prepared elements.
-8. Save the project locally.
+2. Discuss where Revit shifts effort compared with a traditional drawing-led workflow.
+3. Find the Project Browser and Properties Palette.
+4. Open a floor plan, elevation, section, and 3D view.
+5. Practice zooming, panning, orbiting, and switching between views.
+6. Select model elements using click, window selection, tab select, and filters.
+7. Use move, copy, rotate, and temporary hide/isolate.
+8. Try trim/extend, align, offset, mirror, split, array, scale, pin/unpin, and copy/paste aligned on prepared elements.
+9. Save the project locally.
 
 ## Checklist
 
 - [ ] I can create or open a Revit project.
+- [ ] I can explain why BIM shifts design decisions earlier in the project.
 - [ ] I can identify the main interface areas.
 - [ ] I can switch between common view types.
 - [ ] I can navigate a model in 2D and 3D.
