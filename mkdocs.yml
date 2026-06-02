@@ -17,6 +17,7 @@ nav:
   - Home: index.md
   - Schedule: schedule.md
   - ACU Map: acu-objective-map.md
+  - Mock Tests: mock-tests.md
   - Sessions:
       - S01 - Intro: session-01-getting-started.md
       - S02 - Grids: session-02-levels-grids.md
