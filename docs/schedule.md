@@ -1,24 +1,9 @@
-# Revit Certified User Training Schedule
-
-This page is the editable source schedule for the in-house Revit training support page.
-
-## Overview
+# Training Schedule
 
 The programme is structured as short, practical one-hour sessions suitable for delivery in an office environment. It assumes learners have little to moderate Revit experience and aims to prepare them for the Autodesk Certified User Revit for Architectural Design certification.
 
-Each session should include:
-
-- 10-15 minutes demonstration
-- 30-40 minutes guided exercises
-- 5-10 minutes recap and questions
-
-Recommended class size: 4-10 people.
-
-Recommended setup:
-
-- One workstation per learner
-- Dual screens preferred
-- Shared sample project for exercises
+!!! info "Dates"
+    The schedule below currently uses `TBC` placeholders. Replace these with confirmed calendar dates once the training slots are agreed.
 
 ## Core Schedule
 
@@ -41,7 +26,7 @@ Recommended setup:
 | 8 | 15 | TBC | Worksharing and Collaboration Basics | Open a local file, borrow elements, sync changes, manage worksets |
 | 8 | 16 | TBC | Troubleshooting Workshop and Mock Review | Solve prepared scenarios and review exam-style workflows |
 
-## Session Details
+## Session Overview
 
 ### Session 1: Introduction to Revit and Interface
 
@@ -342,60 +327,3 @@ Homework:
 - Materials and rendering basics
 - Filters and graphic standards
 - Advanced documentation standards
-
-## Teaching Notes
-
-- Use one shared practice model for consistency.
-- Save exercise milestones after each class.
-- Encourage keyboard shortcuts early.
-- Focus on production workflows rather than theory.
-- Keep demonstrations short.
-- Let learners make mistakes during exercises.
-- Use real office examples where possible.
-- Emphasize clean modelling habits.
-- Reinforce type vs instance understanding repeatedly.
-
-## Budget Notes
-
-Planning assumptions:
-
-- 2 sessions per week
-- 1 hour per session
-- 16 core sessions total
-- Approximate duration: 8 weeks
-- Lunch provided by office before or during session
-
-Typical budget categories:
-
-- Trainer time
-- Lunch
-- Printing and materials
-- Certification exam vouchers
-- Contingency
-
-Example lunch budget:
-
-- GBP 15 per person
-- 8 attendees
-- 16 sessions
-- Approximate total: GBP 1,920
-
-## Delivery Workflow
-
-Before each session:
-
-- Send calendar invite
-- Upload exercise files
-- Order lunch 1-2 hours before session
-
-During each session:
-
-- 10-15 minutes live demonstration
-- 35-40 minutes guided exercise
-- 5-10 minutes questions and recap
-
-After each session:
-
-- Share completed exercise file
-- Send short recap email
-- Set optional homework exercise

@@ -1,0 +1,35 @@
+site_name: Revit Certified User Training
+site_description: In-house support page for Revit user training, schedules, resources, and lesson notes.
+site_url: https://pervasiveurbanism.github.io/Revit-Certified-User-Training/
+repo_url: https://github.com/PervasiveUrbanism/Revit-Certified-User-Training
+repo_name: PervasiveUrbanism/Revit-Certified-User-Training
+
+theme:
+  name: shadcn
+  show_title: true
+  show_stargazers: false
+  show_datetime: true
+  icon: heroicons:building-office-2
+  accent: "oklch(62% 0.14 190)"
+
+nav:
+  - Home: index.md
+  - Schedule: schedule.md
+  - Session 01 - Getting Started: session-01-getting-started.md
+  - Resources: resources.md
+  - Teaching Notes: teaching-notes.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+exclude_docs: |
+  _drafts/

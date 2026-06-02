@@ -2,16 +2,30 @@
 
 A structured Revit Certified User training programme with lesson plans, exercises, BIM workflows, and certification preparation materials.
 
-## Support Page
+## Documentation Site
 
-The root `index.html` is the support page for the in-house Revit user training programme. It includes the course format, session schedule, resource links, and placeholders for dates and exercise files.
+This repository uses MkDocs with the `mkdocs-shadcn` theme for the in-house Revit user training support site.
 
-Open it locally in a browser, or publish this repository with GitHub Pages using the `main` branch and root folder.
+Local preview:
+
+```powershell
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Build:
+
+```powershell
+mkdocs build --strict
+```
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` builds and deploys the MkDocs site to GitHub Pages when changes are pushed to `main`.
 
 ## Lesson Structure
 
-- `index.html` is the support page.
-- `schedule.md` is the editable course schedule.
+- `mkdocs.yml` configures the documentation site.
+- `docs/` contains the support site pages.
+- `docs/schedule.md` is the editable course schedule.
 - `lessons/` contains the lesson content.
 - `templates/lesson-template.md` is the starting point for each new lesson.
 - `assets/` can hold screenshots, diagrams, sample images, and supporting media.
