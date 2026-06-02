@@ -1,6 +1,6 @@
-# Revit Lessons
+# Revit Certified User Training
 
-This repository is a place to build structured Revit lessons, examples, notes, and exercises.
+A structured Revit Certified User training programme with lesson plans, exercises, BIM workflows, and certification preparation materials.
 
 ## Lesson Structure
 
