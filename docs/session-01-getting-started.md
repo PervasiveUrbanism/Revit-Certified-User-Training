@@ -72,3 +72,10 @@ Then orient learners around the interface:
 - Practice navigation shortcuts.
 - Open and explore sample projects.
 - Duplicate a view and rename it clearly.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Revit user interface](https://help.autodesk.com/view/RVT/2026/ENU/?query=Revit%20user%20interface)
+- [Project Browser](https://help.autodesk.com/view/RVT/2026/ENU/?query=Project%20Browser)
+- [Navigate views](https://help.autodesk.com/view/RVT/2026/ENU/?query=navigate%20views)

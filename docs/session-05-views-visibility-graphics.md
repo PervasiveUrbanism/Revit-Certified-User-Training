@@ -56,3 +56,11 @@ Demonstrate common visibility issues and a systematic troubleshooting process co
 
 - Create one working view and one presentation view.
 - Write down three visibility checks to try when an element disappears.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Visibility and graphics](https://help.autodesk.com/view/RVT/2026/ENU/?query=visibility%20graphics)
+- [View range](https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20range)
+- [View templates](https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20templates)
+- [3D views and section boxes](https://help.autodesk.com/view/RVT/2026/ENU/?query=3D%20view%20section%20box)

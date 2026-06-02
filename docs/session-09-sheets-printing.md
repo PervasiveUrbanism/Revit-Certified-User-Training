@@ -54,3 +54,11 @@ Demonstrate PDF export settings, print setup, and the basic considerations for D
 
 - Create a small presentation sheet set.
 - Export the sheet set as PDFs.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Sheets](https://help.autodesk.com/view/RVT/2026/ENU/?query=sheets)
+- [Title blocks](https://help.autodesk.com/view/RVT/2026/ENU/?query=title%20blocks)
+- [Viewports](https://help.autodesk.com/view/RVT/2026/ENU/?query=viewports)
+- [Print and export](https://help.autodesk.com/view/RVT/2026/ENU/?query=print%20export%20PDF)

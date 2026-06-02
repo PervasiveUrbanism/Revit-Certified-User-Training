@@ -52,3 +52,11 @@ Then place doors and windows into walls. Explain hosted behaviour, level placeme
 
 - Create variations of wall types.
 - Model a small room layout with at least two doors and four windows.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Walls](https://help.autodesk.com/view/RVT/2026/ENU/?query=walls)
+- [Doors](https://help.autodesk.com/view/RVT/2026/ENU/?query=doors)
+- [Windows](https://help.autodesk.com/view/RVT/2026/ENU/?query=windows)
+- [Openings](https://help.autodesk.com/view/RVT/2026/ENU/?query=wall%20opening%20shaft%20opening)

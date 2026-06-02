@@ -50,3 +50,11 @@ Finish with an exam-style review: time management, navigation strategy, keyboard
 
 - Troubleshoot the provided practice model.
 - Review weak topics before certification practice.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Troubleshooting Revit](https://help.autodesk.com/view/RVT/2026/ENU/?query=troubleshooting)
+- [Warnings](https://help.autodesk.com/view/RVT/2026/ENU/?query=warnings)
+- [View range](https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20range)
+- [Autodesk certification overview](https://www.autodesk.com/certification/architecture-engineering-construction-certification)

@@ -52,3 +52,11 @@ Demonstrate room tags, room data consistency, room bounding settings on elements
 
 - Create a complete room data sheet.
 - Review office naming and numbering standards.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Rooms](https://help.autodesk.com/view/RVT/2026/ENU/?query=rooms)
+- [Room tags](https://help.autodesk.com/view/RVT/2026/ENU/?query=room%20tags)
+- [Room separation lines](https://help.autodesk.com/view/RVT/2026/ENU/?query=room%20separation%20lines)
+- [Area plans](https://help.autodesk.com/view/RVT/2026/ENU/?query=area%20plans)

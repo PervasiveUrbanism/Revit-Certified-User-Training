@@ -29,16 +29,28 @@ Demonstrate component placement, rotation, mirroring, hosting requirements, and 
 
 ## Exercise
 
-1. Load a family into the project.
-2. Place hosted and non-hosted components.
-3. Rotate and mirror components.
-4. Duplicate and modify a family type.
-5. Change width and height parameter values where available.
-6. Modify wall layer thickness on a wall type.
-7. Reassign a material to an element or part of an element.
-8. Review type and instance parameters.
-9. Place furniture or equipment in a room layout.
-10. Review office family naming standards.
+1. Load a window family into the project.
+2. Place a hosted window family in an external wall.
+3. Load a furniture family into the project.
+4. Place a non-hosted furniture family in a room.
+5. Rotate and mirror components.
+6. Duplicate and modify a family type.
+7. Change width and height parameter values where available.
+8. Modify wall layer thickness on a wall type.
+9. Reassign a material to an element or part of an element.
+10. Review type and instance parameters.
+11. Review office family naming standards.
+
+## Finding Families
+
+Look for new families in this order:
+
+1. The office family library or BIM standards folder.
+2. Families already loaded into a recent office project.
+3. Autodesk sample content and Revit default libraries.
+4. Manufacturer BIM content, if it is needed for a real project.
+
+For this lesson, the main hosted family will be a window family and the main non-hosted family will be a furniture family. Doors have already been introduced in Session 03, so the focus here is on loading, placing, duplicating, and modifying family types.
 
 ## Checklist
 
@@ -51,5 +63,11 @@ Demonstrate component placement, rotation, mirroring, hosting requirements, and 
 
 ## Homework
 
-- Review office family standards.
 - Place and organise furniture in a sample plan.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Loadable Families](https://help.autodesk.com/view/RVT/2026/ENU/?query=load%20families)
+- [Components](https://help.autodesk.com/view/RVT/2026/ENU/?query=place%20a%20component)
+- [Family Types](https://help.autodesk.com/view/RVT/2026/ENU/?query=family%20types)

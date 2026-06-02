@@ -61,3 +61,11 @@ Then introduce text notes, model text, and tags. Explain that tags display model
 
 - Annotate a complete room layout.
 - Check that tags match the model data they display.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Text notes](https://help.autodesk.com/view/RVT/2026/ENU/?query=text%20notes)
+- [Tags](https://help.autodesk.com/view/RVT/2026/ENU/?query=tags)
+- [Dimensions](https://help.autodesk.com/view/RVT/2026/ENU/?query=dimensions)
+- [Dimension constraints](https://help.autodesk.com/view/RVT/2026/ENU/?query=dimension%20constraints)

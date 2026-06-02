@@ -49,3 +49,11 @@ Demonstrate detail lines, filled regions, masking regions, detail components, an
 ## Homework
 
 - Recreate a simple construction detail from a PDF or CAD reference.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Drafting views](https://help.autodesk.com/view/RVT/2026/ENU/?query=drafting%20views)
+- [Detail lines](https://help.autodesk.com/view/RVT/2026/ENU/?query=detail%20lines)
+- [Detail components](https://help.autodesk.com/view/RVT/2026/ENU/?query=detail%20components)
+- [Filled and masking regions](https://help.autodesk.com/view/RVT/2026/ENU/?query=filled%20region%20masking%20region)

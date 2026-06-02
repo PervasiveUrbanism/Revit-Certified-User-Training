@@ -51,3 +51,10 @@ Then introduce grids as the project reference system used for coordination, dime
 
 - Recreate a simple structural grid layout.
 - Add three levels to a fresh project and name them clearly.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Add Levels and Grids](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-GetStarted/files/GUID-472CE975-AEFC-48A1-8722-E7357F80B90C.htm)
+- [Add Levels](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-54EDD889-9AEA-40B5-BD60-FC2F860DF95D.htm)
+- [Grids](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-DBD917DB-B9F6-417B-B799-5F412A624EB4.htm)

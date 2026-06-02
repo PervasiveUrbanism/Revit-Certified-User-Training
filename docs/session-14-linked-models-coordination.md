@@ -50,3 +50,11 @@ Introduce Internal Origin, Project Base Point, and Survey Point. Explain the dif
 
 - Review office coordination workflows.
 - Compare consultant model positioning methods.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Link Revit models](https://help.autodesk.com/view/RVT/2026/ENU/?query=link%20Revit%20models)
+- [Manage links](https://help.autodesk.com/view/RVT/2026/ENU/?query=manage%20links)
+- [Shared coordinates](https://help.autodesk.com/view/RVT/2026/ENU/?query=shared%20coordinates)
+- [Project Base Point and Survey Point](https://help.autodesk.com/view/RVT/2026/ENU/?query=Project%20Base%20Point%20Survey%20Point)

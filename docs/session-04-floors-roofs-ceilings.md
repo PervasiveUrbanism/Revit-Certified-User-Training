@@ -58,3 +58,11 @@ Close the session with a short introduction to straight stairs, ramps, and raili
 
 - Model a simple house roof.
 - Create a floor and ceiling for a small room layout.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Floors](https://help.autodesk.com/view/RVT/2026/ENU/?query=floors)
+- [Roofs](https://help.autodesk.com/view/RVT/2026/ENU/?query=roofs)
+- [Ceilings](https://help.autodesk.com/view/RVT/2026/ENU/?query=ceilings)
+- [Stairs, ramps, and railings](https://help.autodesk.com/view/RVT/2026/ENU/?query=stairs%20ramps%20railings)

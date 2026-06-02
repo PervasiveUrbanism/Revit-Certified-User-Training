@@ -49,3 +49,11 @@ Demonstrate creating a simple extrusion, constraining it to reference planes, ad
 
 - Modify an existing family.
 - Add one new type to the family and test it in a project.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Family Editor](https://help.autodesk.com/view/RVT/2026/ENU/?query=Family%20Editor)
+- [Reference planes](https://help.autodesk.com/view/RVT/2026/ENU/?query=reference%20planes)
+- [Family parameters](https://help.autodesk.com/view/RVT/2026/ENU/?query=family%20parameters)
+- [Extrusions](https://help.autodesk.com/view/RVT/2026/ENU/?query=extrusions)

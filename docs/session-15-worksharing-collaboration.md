@@ -50,3 +50,11 @@ Demonstrate central/local file concepts, worksets, editable status, sync habits,
 
 - Practice collaborative workflows.
 - Review office BIM standards and model maintenance habits.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Worksharing](https://help.autodesk.com/view/RVT/2026/ENU/?query=worksharing)
+- [Central and local models](https://help.autodesk.com/view/RVT/2026/ENU/?query=central%20local%20model)
+- [Synchronize with Central](https://help.autodesk.com/view/RVT/2026/ENU/?query=Synchronize%20with%20Central)
+- [Worksets](https://help.autodesk.com/view/RVT/2026/ENU/?query=worksets)

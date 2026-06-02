@@ -48,3 +48,11 @@ Introduce callouts for enlarged plans and details. Explain the difference betwee
 ## Homework
 
 - Produce one coordinated drawing sheet using a plan, section, and elevation.
+
+## Revit Help Links
+
+- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+- [Sections](https://help.autodesk.com/view/RVT/2026/ENU/?query=sections)
+- [Elevations](https://help.autodesk.com/view/RVT/2026/ENU/?query=elevations)
+- [Callouts](https://help.autodesk.com/view/RVT/2026/ENU/?query=callouts)
+- [Crop regions](https://help.autodesk.com/view/RVT/2026/ENU/?query=crop%20region)
