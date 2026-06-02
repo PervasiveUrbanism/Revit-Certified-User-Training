@@ -6,6 +6,7 @@ repo_name: PervasiveUrbanism/Revit-Certified-User-Training
 
 theme:
   name: shadcn
+  custom_dir: overrides
   show_title: true
   show_stargazers: false
   show_datetime: true
@@ -15,26 +16,26 @@ theme:
 nav:
   - Home: index.md
   - Schedule: schedule.md
-  - ACU Objective Map: acu-objective-map.md
+  - ACU Map: acu-objective-map.md
   - Sessions:
-      - Session 01 - Getting Started: session-01-getting-started.md
-      - Session 02 - Levels and Grids: session-02-levels-grids.md
-      - Session 03 - Walls Doors and Windows: session-03-walls-doors-windows.md
-      - Session 04 - Floors Roofs and Ceilings: session-04-floors-roofs-ceilings.md
-      - Session 05 - Views Visibility and Graphics: session-05-views-visibility-graphics.md
-      - Session 06 - Annotation and Dimensions: session-06-annotation-dimensions.md
-      - Session 07 - Drafting and Detailing: session-07-drafting-detailing.md
-      - Session 08 - Sections Elevations and Callouts: session-08-sections-elevations-callouts.md
-      - Session 09 - Sheets and Printing: session-09-sheets-printing.md
-      - Session 10 - Components and Families: session-10-components-families.md
-      - Session 11 - Family Editing: session-11-family-editing.md
-      - Session 12 - Schedules and Quantities: session-12-schedules-quantities.md
-      - Session 13 - Rooms Areas and Tags: session-13-rooms-areas-tags.md
-      - Session 14 - Linked Models and Coordination: session-14-linked-models-coordination.md
-      - Session 15 - Worksharing and Collaboration: session-15-worksharing-collaboration.md
-      - Session 16 - Troubleshooting and Mock Review: session-16-troubleshooting-mock-review.md
+      - S01 - Intro: session-01-getting-started.md
+      - S02 - Grids: session-02-levels-grids.md
+      - S03 - Walls: session-03-walls-doors-windows.md
+      - S04 - Floors: session-04-floors-roofs-ceilings.md
+      - S05 - Views: session-05-views-visibility-graphics.md
+      - S06 - Annotation: session-06-annotation-dimensions.md
+      - S07 - Drafting: session-07-drafting-detailing.md
+      - S08 - Sections: session-08-sections-elevations-callouts.md
+      - S09 - Sheets: session-09-sheets-printing.md
+      - S10 - Families: session-10-components-families.md
+      - S11 - Editing: session-11-family-editing.md
+      - S12 - Schedules: session-12-schedules-quantities.md
+      - S13 - Rooms: session-13-rooms-areas-tags.md
+      - S14 - Links: session-14-linked-models-coordination.md
+      - S15 - Sharing: session-15-worksharing-collaboration.md
+      - S16 - Review: session-16-troubleshooting-mock-review.md
   - Resources: resources.md
-  - Teaching Notes: teaching-notes.md
+  - Notes: teaching-notes.md
 
 markdown_extensions:
   - admonition
