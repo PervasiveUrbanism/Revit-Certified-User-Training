@@ -1,0 +1,23 @@
+# Revit local/cache files
+*.rvt
+*.rfa
+*.rte
+*.rft
+*.000*.rvt
+*.000*.rfa
+
+# Revit backup and journal files
+*.bak
+*.journal
+*.dat
+
+# Local OS/editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+# Generated exports
+exports/
+output/
+tmp/
