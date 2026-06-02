@@ -1,7 +1,5 @@
 # Revit Certified User Training
 
-![Architectural BIM training workstation](assets/revit-training-hero.png)
-
 This is the support site for the in-house Revit user training programme. It holds the schedule, session notes, resource links, homework prompts, and certification preparation material in one place.
 
 !!! note "Current status"
@@ -35,6 +33,7 @@ Each session is designed around a short office-friendly rhythm:
 ## Quick Links
 
 - [View the full schedule](schedule.md)
+- [Start with Session 01](session-01-getting-started.md)
 - [Resources and placeholders](resources.md)
 - [Teaching notes](teaching-notes.md)
 - [Autodesk Certification](https://www.autodesk.com/certification)
