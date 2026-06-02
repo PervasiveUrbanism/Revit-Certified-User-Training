@@ -19,12 +19,15 @@ Control how the model appears in different views and troubleshoot common visibil
 - Crop regions
 - View templates
 - View range
+- Underlays
+- 3D section boxes
+- Camera views
 
 ## Demonstration
 
 Explain that Revit views are controlled by view-specific settings. Show the hierarchy from category-level visibility to element-level overrides, temporary hide/isolate, and view templates.
 
-Demonstrate common visibility issues and a systematic troubleshooting process covering hidden elements, category overrides, view range, phases, discipline settings, and linked model visibility.
+Demonstrate common visibility issues and a systematic troubleshooting process covering hidden elements, reveal hidden elements, category overrides, underlays, view range, phases, discipline settings, and linked model visibility.
 
 ## Exercise
 
@@ -34,7 +37,10 @@ Demonstrate common visibility issues and a systematic troubleshooting process co
 4. Temporarily hide and isolate elements.
 5. Create a simple view template.
 6. Apply the template to a second view.
-7. Diagnose prepared visibility issues.
+7. Duplicate views using Duplicate, Duplicate with Detailing, and Duplicate as Dependent.
+8. Create a 3D view and modify a section box boundary.
+9. Create a camera view.
+10. Diagnose prepared visibility issues.
 
 ## Checklist
 
@@ -43,6 +49,8 @@ Demonstrate common visibility issues and a systematic troubleshooting process co
 - [ ] I can set detail level and visual style.
 - [ ] I can create and apply a view template.
 - [ ] I can troubleshoot why an element is not visible.
+- [ ] I can control underlays and view range.
+- [ ] I can create 3D views, camera views, and duplicated view variants.
 
 ## Homework
 

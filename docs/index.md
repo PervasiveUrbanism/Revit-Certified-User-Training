@@ -33,6 +33,7 @@ Each session is designed around a short office-friendly rhythm:
 ## Quick Links
 
 - [View the full schedule](schedule.md)
+- [Review ACU objective coverage](acu-objective-map.md)
 - [Start with Session 01](session-01-getting-started.md)
 - [Resources and placeholders](resources.md)
 - [Teaching notes](teaching-notes.md)

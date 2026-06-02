@@ -17,6 +17,7 @@ Model a simple floor plan using walls, doors, and windows while understanding ho
 - Base and top constraints
 - Wall joins
 - Hosted doors and windows
+- Wall and shaft openings
 - Type properties
 - Instance properties
 
@@ -24,7 +25,7 @@ Model a simple floor plan using walls, doors, and windows while understanding ho
 
 Show how walls are constrained between levels and how their location line affects placement accuracy. Demonstrate wall joins, temporary dimensions, and basic wall type changes.
 
-Then place doors and windows into walls. Explain hosted behaviour, flip controls, sill heights, and why deleting a host wall affects hosted components.
+Then place doors and windows into walls. Explain hosted behaviour, level placement, flip controls, sill heights, head heights, and why deleting a host wall affects hosted components. Demonstrate wall openings and shaft openings as separate opening tools.
 
 ## Exercise
 
@@ -33,8 +34,10 @@ Then place doors and windows into walls. Explain hosted behaviour, flip controls
 3. Adjust wall constraints and location lines.
 4. Place doors in internal and external walls.
 5. Place windows and adjust sill heights.
-6. Use flip controls to correct orientation.
-7. Modify one wall type and compare type and instance changes.
+6. Review head height and placement level.
+7. Use flip controls to correct orientation.
+8. Create a wall opening and a shaft opening.
+9. Modify one wall type and compare type and instance changes.
 
 ## Checklist
 
@@ -42,6 +45,7 @@ Then place doors and windows into walls. Explain hosted behaviour, flip controls
 - [ ] I can set base and top constraints.
 - [ ] I can place hosted doors and windows.
 - [ ] I can use flip controls.
+- [ ] I can create wall and shaft openings.
 - [ ] I understand type versus instance changes.
 
 ## Homework

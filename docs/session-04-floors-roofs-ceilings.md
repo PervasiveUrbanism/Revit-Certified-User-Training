@@ -20,12 +20,16 @@ Create horizontal building elements and understand Revit's sketch-based workflow
 - Slope-defining edges
 - Ceiling plans
 - Reflected ceiling plans
+- Stairs, ramps, and railings
+- Sketch draw tools and chain selection
 
 ## Demonstration
 
 Introduce floors as sketch-based system families. Show manual sketching, Pick Walls, boundary cleanup, and basic floor type layers.
 
-Then demonstrate Roof by Footprint, overhang settings, slope-defining edges, and attaching walls to roof geometry. Finish by opening a reflected ceiling plan and creating ceilings.
+Then demonstrate Roof by Footprint, overhang settings, slope-defining edges, and attaching walls to roof geometry. Finish by opening a reflected ceiling plan and creating ceilings. Add a focused exam demonstration of sketch draw tools: line, rectangle, start-end-radius arc, pick lines, pick walls, chain selection, Extend into Wall, and Escape, Shift, Alt, Tab, and PageUp during sketch workflows.
+
+Close the session with a short introduction to straight stairs, ramps, and railings because these are part of the ACU modelling domain.
 
 ## Exercise
 
@@ -36,6 +40,9 @@ Then demonstrate Roof by Footprint, overhang settings, slope-defining edges, and
 5. Set roof overhangs and slope edges.
 6. Attach walls to the roof where appropriate.
 7. Open a reflected ceiling plan and create ceilings.
+8. Use line, rectangle, arc, pick lines, pick walls, and chain selection in sketch mode.
+9. Place a straight stair with a run and landing.
+10. Sketch a simple ramp and add or edit a railing path.
 
 ## Checklist
 
@@ -44,6 +51,8 @@ Then demonstrate Roof by Footprint, overhang settings, slope-defining edges, and
 - [ ] I can create a simple roof by footprint.
 - [ ] I understand slope-defining edges.
 - [ ] I can create a reflected ceiling plan.
+- [ ] I can use the ACU sketch draw tools.
+- [ ] I can place basic stairs, ramps, and railings.
 
 ## Homework
 

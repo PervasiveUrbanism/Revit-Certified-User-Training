@@ -15,6 +15,7 @@ theme:
 nav:
   - Home: index.md
   - Schedule: schedule.md
+  - ACU Objective Map: acu-objective-map.md
   - Sessions:
       - Session 01 - Getting Started: session-01-getting-started.md
       - Session 02 - Levels and Grids: session-02-levels-grids.md

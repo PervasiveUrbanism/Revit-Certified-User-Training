@@ -18,13 +18,14 @@ Create view-specific 2D details and understand when to use drafting tools rather
 - Filled regions
 - Masking regions
 - Detail components
+- Insulation
 - CAD links and imports
 
 ## Demonstration
 
 Introduce drafting views as independent 2D views used for details that are not directly modelled. Explain scale management, referencing drafting views, and office detail library workflows.
 
-Demonstrate detail lines, filled regions, masking regions, and detail components. Discuss safe CAD linking workflows and why exploding imported CAD can damage model performance.
+Demonstrate detail lines, filled regions, masking regions, detail components, and insulation. Discuss safe CAD linking workflows and why exploding imported CAD can damage model performance.
 
 ## Exercise
 
@@ -32,7 +33,7 @@ Demonstrate detail lines, filled regions, masking regions, and detail components
 2. Set the view scale.
 3. Draw a simple wall section detail with detail lines.
 4. Add filled regions and masking regions.
-5. Place detail components.
+5. Place detail components and insulation.
 6. Add annotations and dimensions.
 7. Place the drafting view on a detail sheet.
 
@@ -42,6 +43,7 @@ Demonstrate detail lines, filled regions, masking regions, and detail components
 - [ ] I understand detail lines versus model lines.
 - [ ] I can use filled and masking regions.
 - [ ] I can place detail components.
+- [ ] I can add insulation detail annotation.
 - [ ] I understand the risks of importing and exploding CAD.
 
 ## Homework

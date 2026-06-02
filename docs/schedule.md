@@ -8,6 +8,9 @@ The programme is structured as short, practical one-hour sessions suitable for d
 !!! note "Location and lunch"
     Sessions will take place in the upstairs meeting room. Pret lunch will be generously provided.
 
+!!! tip "Certification coverage"
+    The ACU exam objectives have been checked point by point against the lessons. See the [ACU Objective Coverage Map](acu-objective-map.md).
+
 ## Core Schedule
 
 | Session | Date | Topic |

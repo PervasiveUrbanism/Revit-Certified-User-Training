@@ -19,6 +19,7 @@ Understand the Revit workspace, open a project, navigate views, and recognise th
 - View controls
 - 3D navigation
 - Selection and modification tools
+- Basic digital literacy for opening, saving, and finding files
 
 ## Demonstration
 
@@ -41,7 +42,8 @@ Then orient learners around the interface:
 4. Practice zooming, panning, orbiting, and switching between views.
 5. Select model elements using click, window selection, tab select, and filters.
 6. Use move, copy, rotate, and temporary hide/isolate.
-7. Save the project locally.
+7. Try trim/extend, align, offset, mirror, split, array, scale, pin/unpin, and copy/paste aligned on prepared elements.
+8. Save the project locally.
 
 ## Checklist
 
@@ -50,6 +52,7 @@ Then orient learners around the interface:
 - [ ] I can switch between common view types.
 - [ ] I can navigate a model in 2D and 3D.
 - [ ] I can select and modify basic elements.
+- [ ] I can use the core Modify tools listed in the ACU objectives.
 
 ## Homework
 
