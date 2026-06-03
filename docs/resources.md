@@ -17,7 +17,7 @@ The house is only a learning vehicle. It is not a design exercise, and it does n
 
 ## Revit Access
 
-Each student needs working access to Revit before the first session.
+Each learner needs working access to Revit before the first session.
 
 Options include:
 
@@ -26,18 +26,20 @@ Options include:
 - A short-term subscription or Flex access
 - The [Autodesk Revit free trial](https://www.autodesk.com/products/revit/free-trial)
 
-Autodesk trial versions are typically limited to 30 days. Because this course runs over roughly two months, do not rely on a single trial lasting for the full programme. Arrange legitimate access in advance through the office, education entitlement, or another approved Autodesk route.
+Autodesk trial versions are typically limited to 30 days. Because this course runs over roughly two months, do not rely on a single trial lasting for the full programme. 
 
 ## Attendance and Catch-Up
 
-The sessions are not intended to be recorded. If a learner misses a session, they should:
+The sessions are not intended to be recorded, so learners should use the lesson pages as the main catch-up route if they miss a session.
+
+If you miss a session:
 
 1. Read the relevant lesson page on this site.
-2. Open the matching Revit Help links at the end of the lesson.
+2. Open the Autodesk Revit Help links at the end of that lesson.
 3. Recreate the exercise in their own practice model.
 4. Ask about any unclear points at the next session.
 
-Each lesson is somewhat self-contained, so missing one session should not prevent a learner from joining the following session. However, Revit learning depends on repetition, so missed topics should be practised as soon as possible.
+Each lesson is designed to be reasonably self-contained, so missing one session should not prevent someone from joining the following session. However, Revit learning depends on repetition. Missed topics should be practised as soon as possible, ideally before the next class.
 
 ## Core Links
 

@@ -34,9 +34,11 @@ Then introduce grids as the project reference system used for coordination, dime
 4. Add grids to a floor plan.
 5. Adjust grid bubbles and datum extents.
 6. Rename grid bubbles.
-7. Place architectural columns on grid intersections.
-8. Align levels and grids for clear documentation.
-9. Review the Project Browser and tidy view names.
+7. Create plan views for the required levels using `View > Plan Views > Floor Plan`. Check that each plan view is named clearly and appears in the correct Project Browser location.
+8. Place architectural columns on selected grid intersections, then draw a simple wall layout that uses the grids as setting-out references.
+9. Align levels and grids so the datum lines read clearly in elevations and plans. Adjust 2D and 3D extents where needed so the documentation is tidy.
+10. Create a scope box around the main building area and assign it to relevant plan views. Use it to keep crop regions and datum extents consistent.
+11. Review the Project Browser, rename any unclear views, and remove or ignore duplicate views that are not needed for the exercise.
 
 ## Checklist
 
@@ -45,6 +47,9 @@ Then introduce grids as the project reference system used for coordination, dime
 - [ ] I can place and adjust grids.
 - [ ] I can control datum visibility and extents.
 - [ ] I can place architectural columns on a grid.
+- [ ] I can create plan views for levels.
+- [ ] I can use a scope box to coordinate view crops and datum extents.
+- [ ] I can create a simple wall layout using grids as references.
 - [ ] I can keep view names and datum names consistent.
 
 ## Homework
@@ -54,7 +59,8 @@ Then introduce grids as the project reference system used for coordination, dime
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
+
 - [Add Levels and Grids](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-GetStarted/files/GUID-472CE975-AEFC-48A1-8722-E7357F80B90C.htm)
-- [Add Levels](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-54EDD889-9AEA-40B5-BD60-FC2F860DF95D.htm)
-- [Grids](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-DBD917DB-B9F6-417B-B799-5F412A624EB4.htm)
+- [Add Levels](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-075B9A47-69AB-44D2-8A05-6136EFF26946)
+- [Grids](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-00D47820-7F7E-4677-BADA-A8CBAD614A16)
+- [Scope Box](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-57084384-4D1E-498A-A6F9-CE5C7260A088)
