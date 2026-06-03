@@ -1,55 +1,50 @@
-# Revit Certified User Training
+# Mossessian Architecture - Revit Training
 
-A structured Revit Certified User training programme with lesson plans, exercises, BIM workflows, and certification preparation materials.
+This repository holds the support material for Mossessian Architecture's in-house Revit training programme.
 
-## Documentation Site
+The training site is published here:
 
-This repository uses MkDocs with the `mkdocs-shadcn` theme for the in-house Revit user training support site.
+[Open the Revit training website](https://pervasiveurbanism.github.io/Revit-Certified-User-Training/)
 
-Local preview:
+## What This Repository Contains
+
+The material is organised as a lightweight course website for office-based Revit learning. It includes:
+
+- The training schedule
+- Session pages for each lesson
+- Resource links for learners
+- Mock test questions for certification-style practice
+- Supporting notes and reference material
+
+The current course is structured around short practical sessions, moving from Revit interface basics through modelling, documentation, families, schedules, coordination, and mock review.
+
+## Editing the Training Content
+
+Most course text lives in the `docs/` folder as Markdown files. These are the main files to edit when updating lesson notes, schedules, links, or resources.
+
+Key files:
+
+- `docs/index.md` - homepage text
+- `docs/schedule.md` - course schedule
+- `docs/resources.md` - learner resources
+- `docs/session-*.md` - individual session pages
+- `docs/mock-up-1.md` and `docs/mock-up-2.md` - mock tests
+
+## Website Setup
+
+The website is built with MkDocs using the `mkdocs-shadcn` theme.
+
+To preview it locally:
 
 ```powershell
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-Build:
+To check the site before publishing:
 
 ```powershell
 mkdocs build --strict
 ```
 
-The GitHub Actions workflow in `.github/workflows/pages.yml` builds and deploys the MkDocs site to GitHub Pages when changes are pushed to `main`.
-
-## Lesson Structure
-
-- `mkdocs.yml` configures the documentation site.
-- `docs/` contains the support site pages.
-- `docs/schedule.md` is the editable course schedule.
-- `lessons/` contains the lesson content.
-- `templates/lesson-template.md` is the starting point for each new lesson.
-- `assets/` can hold screenshots, diagrams, sample images, and supporting media.
-
-## Suggested Learning Path
-
-1. Revit interface and navigation
-2. Project setup and templates
-3. Levels and grids
-4. Walls, doors, windows, and basic modeling
-5. Floors, ceilings, roofs, and stairs
-6. Views, sheets, annotations, and dimensions
-7. Families and parameters
-8. Schedules and quantities
-9. Collaboration, worksharing, and model coordination
-10. Exporting, documentation, and presentation
-
-## Adding a Lesson
-
-1. Copy `templates/lesson-template.md`.
-2. Save it in `lessons/` with a clear number and title, for example `02-levels-and-grids.md`.
-3. Add screenshots or support files to `assets/`.
-4. Commit the new lesson to Git.
-
-## Notes
-
-Large Revit project files are ignored by default because they can make a Git repository heavy. If you want to include sample `.rvt` or `.rfa` files later, consider using Git LFS.
+Changes pushed to `main` are deployed to the public GitHub Pages site.
