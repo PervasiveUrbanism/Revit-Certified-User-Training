@@ -14,7 +14,7 @@ theme:
   accent: "oklch(62% 0.14 190)"
 
 nav:
-  - Home: index.md
+  - Start: index.md
   - Schedule: schedule.md
   - Sessions:
       - S01 - Intro: session-01-getting-started.md
