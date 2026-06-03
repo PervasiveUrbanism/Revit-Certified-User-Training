@@ -22,9 +22,15 @@ Understand the Revit workspace, open a project, navigate views, and recognise th
 - Selection and modification tools
 - Basic digital literacy for opening, saving, and finding files
 
-## Demonstration
+## BIM vs CAD
 
 Introduce Revit as a coordinated BIM model rather than a set of disconnected CAD drawings. Show how plans, sections, elevations, schedules, and sheets all read from the same project model.
+
+One of the most important ideas in Revit is that the project behaves like a central database. A wall is not just a line in plan; it is an object with height, type, material, fire rating, location, and relationships to levels, rooms, views, schedules, and sheets. When that object changes, every view that depends on it can update from the same underlying information.
+
+For example, imagine Keyu is preparing facade visualisations. In a less coordinated workflow, she might export geometry from Revit, adjust it in Rhino, assign materials, and send it to D5 or another visualisation tool. If the facade geometry or material changes later, those changes may happen outside Revit. Martin, the technical coordinator, then needs to update drawings or schedules separately, and Richard, the facade coordinator, needs to check whether the facade information still matches. The team can quickly end up with several versions of the same building.
+
+In a Revit-based BIM workflow, Keyu makes the relevant geometry and material changes in the live project model where possible. Plans, sections, elevations, schedules, and sheets can then read the updated information from the same place. If the model is linked into D5 or another visualisation workflow, the visualisation is based on current coordinated geometry, reducing the risk that material assignments or design changes are lost during export.
 
 ### MacLeamy Curve
 
@@ -75,7 +81,8 @@ Then orient learners around the interface:
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Revit user interface](https://help.autodesk.com/view/RVT/2026/ENU/?query=Revit%20user%20interface)
-- [Project Browser](https://help.autodesk.com/view/RVT/2026/ENU/?query=Project%20Browser)
-- [Navigate views](https://help.autodesk.com/view/RVT/2026/ENU/?query=navigate%20views)
+
+- [Revit user interface](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-7793667D-5657-4382-9BEC-F7CB6AC8F53E)
+- [Project Browser](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-C8D3E5A6-02A5-43A9-AFFC-D49DD27398B1)
+- [Navigate views](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D6D06E2C-17F3-499B-B795-E2980C46BBF2)
+- [Editing Elements](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-33CE9B38-CACD-47D6-936B-01776C4BC324)
