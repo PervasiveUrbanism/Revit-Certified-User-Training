@@ -7,7 +7,7 @@ Understand the Revit workspace, open a project, navigate views, and recognise th
 ## Prerequisites
 
 - Autodesk Revit installed
-- Basic understanding of architectural drawings
+- Download the [Lesson 01 exercise file](assets/exercise-files/lesson-01.rvt)
 - A sample project or Revit default template
 
 ## Key Concepts
