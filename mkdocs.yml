@@ -1,4 +1,4 @@
-site_name: Revit Certified User Training
+site_name: Mossessian Architecture - Revit Training
 site_description: In-house support page for Revit user training, schedules, resources, and lesson notes.
 site_url: https://pervasiveurbanism.github.io/Revit-Certified-User-Training/
 repo_url: https://github.com/PervasiveUrbanism/Revit-Certified-User-Training
@@ -16,8 +16,6 @@ theme:
 nav:
   - Home: index.md
   - Schedule: schedule.md
-  - ACU Map: acu-objective-map.md
-  - Mock Tests: mock-tests.md
   - Sessions:
       - S01 - Intro: session-01-getting-started.md
       - S02 - Grids: session-02-levels-grids.md
@@ -35,8 +33,10 @@ nav:
       - S14 - Links: session-14-linked-models-coordination.md
       - S15 - Sharing: session-15-worksharing-collaboration.md
       - S16 - Review: session-16-troubleshooting-mock-review.md
+  - Mock Test:
+      - Mock Up 1: mock-up-1.md
+      - Mock Up 2: mock-up-2.md
   - Resources: resources.md
-  - Notes: teaching-notes.md
 
 markdown_extensions:
   - admonition
