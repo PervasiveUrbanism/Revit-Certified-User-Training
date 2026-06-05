@@ -1,9 +1,6 @@
 # Mossessian Architecture - Revit Training
 
-This is the support site for the in-house Revit user training programme. It holds the schedule, session notes, resource links, homework prompts, and certification preparation material in one place.
-
-!!! note "Current status"
-    Dates, calendar links, Teams/SharePoint links, and exercise file links are still to be added.
+This is the support site for the in-house Revit training programme at Mossessian Architecture. It brings together the course schedule, session notes, resource links, exercise files, and mock test material in one place.
 
 ## Course Format
 
@@ -11,9 +8,8 @@ This is the support site for the in-house Revit user training programme. It hold
 | --- | --- |
 | Core sessions | 16 |
 | Session length | 1 hour |
-| Typical pace | 2 sessions per week |
-| Approximate duration | 8 weeks |
-| Recommended group size | 4-10 people |
+| Typical pace | 3 sessions per week, with some double sessions |
+| Approximate duration | 1 month |
 
 Each session is designed around a short office-friendly rhythm:
 
@@ -21,25 +17,6 @@ Each session is designed around a short office-friendly rhythm:
 - 30-40 minutes guided exercise
 - 5-10 minutes recap and questions
 - Optional practice task before the next session
-
-## Training Setup
-
-- One workstation per learner
-- Dual screens preferred
-- Shared sample project for exercises
-- Consistent Revit version across all training machines
-- Exercise files uploaded before each session
-
-## Quick Links
-
-- [View the full schedule](schedule.md)
-- [Review ACU objective coverage](acu-objective-map.md)
-- [Start with Session 01](session-01-getting-started.md)
-- [Try Mock Up 1](mock-up-1.md)
-- [Try Mock Up 2](mock-up-2.md)
-- [Resources and placeholders](resources.md)
-- [Teaching notes](teaching-notes.md)
-- [Autodesk Certification](https://www.autodesk.com/certification)
 
 ## Learning Path
 

@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-02T22:30:07+01:00');
+        const date = new Date('2026-06-05T14:32:56+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -808,14 +808,42 @@
 <li>Duplicate views using Duplicate, Duplicate with Detailing, and Duplicate as Dependent.</li>
 <li>Create a 3D view and modify a section box boundary.</li>
 <li>Create a camera view.</li>
+<li>Add an underlay to a plan view and use it to compare geometry from another level.</li>
+<li>Create a plan region where a local area needs a different view range.</li>
 <li>Diagnose prepared visibility issues.</li>
 </ol>
+<h2 id="view-range">View Range<a class="headerlink" href="#view-range" title="Permanent link">&para;</a></h2>
+<p>View range controls the vertical slice of the model that appears in a plan view. It is one of the most common reasons why elements appear, disappear, or display differently from what learners expect.</p>
+<p><img alt="Revit view range diagram showing top, cut plane, bottom, and view depth" src="../assets/view-range.png" /></p>
+<p>The key settings are:</p>
+<ul>
+<li>Top: the upper limit of the main view range.</li>
+<li>Cut Plane: the height where Revit cuts through model elements.</li>
+<li>Bottom: the lower limit of the main view range.</li>
+<li>View Depth: the additional depth Revit can look beyond the bottom of the primary range.</li>
+</ul>
+<p>For a normal floor plan, the cut plane is often around door and window head height. If the cut plane is too low or too high, windows, high-level objects, or low-level elements may not display as expected. When troubleshooting a plan, always check the view range before assuming the model is wrong.</p>
+<h2 id="family-cut-behaviour">Family Cut Behaviour<a class="headerlink" href="#family-cut-behaviour" title="Permanent link">&para;</a></h2>
+<p>Different Revit categories respond to the cut plane in different ways. This is why two elements at the same height can display differently in the same view.</p>
+<ul>
+<li>Walls usually cut when the cut plane passes through them, showing their wall build-up and cut lineweight.</li>
+<li>Doors and windows are hosted by walls and usually display according to the wall opening, family geometry, sill height, and cut plane relationship.</li>
+<li>Furniture is normally not cut in plan; it usually displays as projection geometry.</li>
+<li>Casework can behave more like furniture or more like model geometry depending on how the family is built.</li>
+<li>Generic models depend heavily on their family category, geometry, and visibility settings, so they are common sources of visibility confusion.</li>
+</ul>
+<p>When an object does not display as expected, check its category, family visibility settings, host relationship, and height relative to the view range.</p>
+<h2 id="plan-regions-and-underlays">Plan Regions and Underlays<a class="headerlink" href="#plan-regions-and-underlays" title="Permanent link">&para;</a></h2>
+<p>A plan region allows part of a plan view to use a different view range from the rest of the view. This is useful for split-level areas, stairs, mezzanines, high windows, or local conditions where the standard floor plan cut plane does not show the necessary information.</p>
+<p>Underlays let learners see another level or view reference beneath the current plan. They are useful for coordination and comparison, but they should not be confused with live visible model geometry in the active view. Use underlays temporarily to understand relationships between levels, then turn them off or control them carefully in production views.</p>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
 <ul>
 <li>[ ] I can use Visibility/Graphics overrides.</li>
 <li>[ ] I can distinguish temporary and permanent hide.</li>
 <li>[ ] I can set detail level and visual style.</li>
 <li>[ ] I can create and apply a view template.</li>
+<li>[ ] I can explain how top, cut plane, bottom, and view depth affect a plan.</li>
+<li>[ ] I can use plan regions for local view range exceptions.</li>
 <li>[ ] I can troubleshoot why an element is not visible.</li>
 <li>[ ] I can control underlays and view range.</li>
 <li>[ ] I can create 3D views, camera views, and duplicated view variants.</li>
@@ -827,11 +855,11 @@
 </ul>
 <h2 id="revit-help-links">Revit Help Links<a class="headerlink" href="#revit-help-links" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/">Revit Help</a></li>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?query=visibility%20graphics">Visibility and graphics</a></li>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20range">View range</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-FB8D0ABE-8521-4EA0-A47E-FF3DEBC403A5">Visibility and graphics</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-58711292-AB78-4C8F-BAA1-0855DDB518BF">View range</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20templates">View templates</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?query=3D%20view%20section%20box">3D views and section boxes</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-F03617DC-541D-49CF-B40C-B2537175F561">Underlays</a></li>
 </ul>
   </div>
   
@@ -1091,6 +1119,30 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#exercise');">
             Exercise
+        </a>
+        
+
+        
+        <a href="#view-range"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#view-range');">
+            View Range
+        </a>
+        
+
+        
+        <a href="#family-cut-behaviour"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#family-cut-behaviour');">
+            Family Cut Behaviour
+        </a>
+        
+
+        
+        <a href="#plan-regions-and-underlays"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#plan-regions-and-underlays');">
+            Plan Regions and Underlays
         </a>
         
 

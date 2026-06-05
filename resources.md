@@ -41,7 +41,7 @@ If you miss a session:
 
 Each lesson is designed to be reasonably self-contained, so missing one session should not prevent someone from joining the following session. However, Revit learning depends on repetition. Missed topics should be practised as soon as possible, ideally before the next class.
 
-## Core Links
+## Links
 
 - [Autodesk Help](https://help.autodesk.com/)
 - [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
