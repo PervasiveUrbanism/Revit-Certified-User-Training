@@ -61,8 +61,9 @@ Close the session with a short introduction to straight stairs, ramps, and raili
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Floors](https://help.autodesk.com/view/RVT/2026/ENU/?query=floors)
-- [Roofs](https://help.autodesk.com/view/RVT/2026/ENU/?query=roofs)
-- [Ceilings](https://help.autodesk.com/view/RVT/2026/ENU/?query=ceilings)
-- [Stairs, ramps, and railings](https://help.autodesk.com/view/RVT/2026/ENU/?query=stairs%20ramps%20railings)
+
+- [Floors](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-8099AC26-F02D-4C9A-9209-AAD95A10D119)
+- [Roofs](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-FF37F25A-D805-4F2E-B9FC-4372CAFDF4FC)
+- [Ceilings](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DA92880A-0A23-4EB4-A20B-CC70966B7C36)
+- [Stairs](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-B1B305DF-8DBE-44A7-A7C6-16B70A3B580E)
+- [Railings](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-34DEB2F6-E66E-4801-8138-958DDB4D2A5A)
