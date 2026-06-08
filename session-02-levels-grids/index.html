@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-03T10:40:32+01:00');
+        const date = new Date('2026-06-08T09:26:30+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -787,6 +787,8 @@
 <li>Levels and associated views</li>
 <li>Grids and structural reference systems</li>
 <li>Architectural columns on grids</li>
+<li>Structural columns and coordination intent</li>
+<li>Basic wall placement from grid references</li>
 <li>Datum extents</li>
 <li>Naming consistency</li>
 <li>View organisation</li>
@@ -794,6 +796,23 @@
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Explain levels as the vertical control system of the project. Show how building elements can be hosted or constrained to levels, and how renaming a level can also rename the associated plan view.</p>
 <p>Then introduce grids as the project reference system used for coordination, dimensioning, and setting out. Show bubble visibility, extents, grid names, and how datum visibility can differ between views. Place architectural columns on grid intersections so learners understand the exam link between grids and columns.</p>
+<h2 id="architectural-and-structural-columns">Architectural and Structural Columns<a class="headerlink" href="#architectural-and-structural-columns" title="Permanent link">&para;</a></h2>
+<p>Revit has both architectural columns and structural columns. They can look similar in a beginner model, but they carry different meaning and are used for different coordination workflows.</p>
+<p>Architectural columns are normally used where the column is part of the architectural definition of the space. They may represent a visible finish, casing, boxing-out, pilaster, or column enclosure. They belong to the architectural model and are often useful when the architect needs to control what is seen in plans, sections, elevations, and room layouts.</p>
+<p>Structural columns are used when the element represents a load-bearing structural member. They belong to the structural modelling logic and are usually coordinated with the structural engineer. Structural columns have structural behaviour, analytical relevance, and category settings that support structural documentation and coordination.</p>
+<p>In practice, an architectural model may show columns for spatial and visual coordination while the structural model contains the authoritative structural columns. In a live project, do not duplicate structural information casually. Agree with the project team whether the architect should model architectural column finishes, structural column placeholders, or rely on linked structural models.</p>
+<p>For this training session, place architectural columns on grid intersections to understand the grid-and-column relationship without introducing full structural modelling. The main lesson is that grids provide a shared reference system, and columns often make that reference system visible in the building layout.</p>
+<h2 id="basic-wall-layout-from-grids">Basic Wall Layout From Grids<a class="headerlink" href="#basic-wall-layout-from-grids" title="Permanent link">&para;</a></h2>
+<p>This session also introduces simple wall placement so learners can see why levels and grids matter. The aim is not yet to understand wall build-ups, layers, materials, or detailed wall types. That comes in the next session.</p>
+<p>For now, use walls as simple layout elements:</p>
+<ul>
+<li>Draw external walls using grids as setting-out references.</li>
+<li>Set the wall base and top constraints to the correct levels.</li>
+<li>Use the location line to decide whether the wall is placed by centreline, finish face, or core face.</li>
+<li>Use temporary dimensions and Align to keep walls coordinated with grids.</li>
+<li>Keep the layout simple enough that the datum structure remains the main focus.</li>
+</ul>
+<p>By the end of this session, learners should understand that levels control vertical relationships, grids control setting-out, and walls are easier to manage when they are placed against a clear datum strategy.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Open an elevation view.</li>
@@ -803,7 +822,10 @@
 <li>Adjust grid bubbles and datum extents.</li>
 <li>Rename grid bubbles.</li>
 <li>Create plan views for the required levels using <code>View &gt; Plan Views &gt; Floor Plan</code>. Check that each plan view is named clearly and appears in the correct Project Browser location.</li>
-<li>Place architectural columns on selected grid intersections, then draw a simple wall layout that uses the grids as setting-out references.</li>
+<li>Place architectural columns on selected grid intersections and discuss how this differs from placing structural columns.</li>
+<li>Draw a simple external wall layout using the grids as setting-out references.</li>
+<li>Set wall base and top constraints so the walls relate correctly to the levels.</li>
+<li>Use Align and temporary dimensions to coordinate wall positions with grids.</li>
 <li>Align levels and grids so the datum lines read clearly in elevations and plans. Adjust 2D and 3D extents where needed so the documentation is tidy.</li>
 <li>Create a scope box around the main building area and assign it to relevant plan views. Use it to keep crop regions and datum extents consistent.</li>
 <li>Review the Project Browser, rename any unclear views, and remove or ignore duplicate views that are not needed for the exercise.</li>
@@ -814,10 +836,12 @@
 <li>[ ] I understand that levels can generate plan views.</li>
 <li>[ ] I can place and adjust grids.</li>
 <li>[ ] I can control datum visibility and extents.</li>
+<li>[ ] I can explain the difference between architectural and structural columns.</li>
 <li>[ ] I can place architectural columns on a grid.</li>
 <li>[ ] I can create plan views for levels.</li>
 <li>[ ] I can use a scope box to coordinate view crops and datum extents.</li>
 <li>[ ] I can create a simple wall layout using grids as references.</li>
+<li>[ ] I can constrain simple walls between levels.</li>
 <li>[ ] I can keep view names and datum names consistent.</li>
 </ul>
 <h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">&para;</a></h2>
@@ -831,6 +855,8 @@
 <li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-075B9A47-69AB-44D2-8A05-6136EFF26946">Add Levels</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-00D47820-7F7E-4677-BADA-A8CBAD614A16">Grids</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-57084384-4D1E-498A-A6F9-CE5C7260A088">Scope Box</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D28D080E-74DF-4C6D-997D-7B7A8F99C1A2">Columns</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-30D3A26F-42FF-40FA-83D2-B43EA67F3ECD">Walls</a></li>
 </ul>
   </div>
   
@@ -1082,6 +1108,22 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#demonstration');">
             Demonstration
+        </a>
+        
+
+        
+        <a href="#architectural-and-structural-columns"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#architectural-and-structural-columns');">
+            Architectural and Structural Columns
+        </a>
+        
+
+        
+        <a href="#basic-wall-layout-from-grids"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#basic-wall-layout-from-grids');">
+            Basic Wall Layout From Grids
         </a>
         
 

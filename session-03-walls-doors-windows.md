@@ -27,24 +27,30 @@ Show how walls are constrained between levels and how their location line affect
 
 Then place doors and windows into walls. Explain hosted behaviour, level placement, flip controls, sill heights, head heights, and why deleting a host wall affects hosted components. Demonstrate wall openings and shaft openings as separate opening tools.
 
+This session uses a small amount of loaded content so learners understand the normal Revit workflow for doors and windows. The focus is still on placing and controlling hosted elements, not on building a full family library.
+
+Session 10 will look more closely at where to find appropriate models and families, including office libraries, manufacturer content, and reliable external sources. Session 11 will then introduce the basics of editing and creating families so learners understand how custom content is made.
+
 ## Exercise
 
 1. Create a simple rectangular floor plan.
 2. Add internal partitions.
 3. Adjust wall constraints and location lines.
-4. Place doors in internal and external walls.
-5. Place windows and adjust sill heights.
-6. Review head height and placement level.
-7. Use flip controls to correct orientation.
-8. Load a new window family, such as a sash window, using `Insert > Load Family`. Choose a suitable family from the Revit library or an approved office content folder.
-9. Place the loaded sash window into an external wall and adjust its sill height, type, and position.
-10. Create a wall opening and a shaft opening.
-11. Modify one wall type and compare type and instance changes.
+4. Review wall build-up, type properties, and how changing a wall type differs from moving or constraining a wall instance.
+5. Place doors in internal and external walls.
+6. Place windows and adjust sill heights.
+7. Review head height and placement level.
+8. Use flip controls to correct orientation.
+9. Load a new window family, such as a sash window, using `Insert > Load Family`. Choose a suitable family from the Revit library or an approved office content folder.
+10. Place the loaded sash window into an external wall and adjust its sill height, type, and position.
+11. Create a wall opening and a shaft opening.
+12. Modify one wall type and compare type and instance changes.
 
 ## Checklist
 
 - [ ] I can draw walls accurately.
 - [ ] I can set base and top constraints.
+- [ ] I can identify where wall type build-up is edited.
 - [ ] I can place hosted doors and windows.
 - [ ] I can load a new door or window family into the project.
 - [ ] I can use flip controls.

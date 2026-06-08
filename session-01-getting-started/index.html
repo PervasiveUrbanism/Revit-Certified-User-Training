@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-03T10:40:32+01:00');
+        const date = new Date('2026-06-08T09:26:30+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -796,8 +796,8 @@
 <h2 id="bim-vs-cad">BIM vs CAD<a class="headerlink" href="#bim-vs-cad" title="Permanent link">&para;</a></h2>
 <p>Introduce Revit as a coordinated BIM model rather than a set of disconnected CAD drawings. Show how plans, sections, elevations, schedules, and sheets all read from the same project model.</p>
 <p>One of the most important ideas in Revit is that the project behaves like a central database. A wall is not just a line in plan; it is an object with height, type, material, fire rating, location, and relationships to levels, rooms, views, schedules, and sheets. When that object changes, every view that depends on it can update from the same underlying information.</p>
-<p>For example, imagine Keyu is preparing facade visualisations. In a less coordinated workflow, she might export geometry from Revit, adjust it in Rhino, assign materials, and send it to D5 or another visualisation tool. If the facade geometry or material changes later, those changes may happen outside Revit. Martin, the technical coordinator, then needs to update drawings or schedules separately, and Richard, the facade coordinator, needs to check whether the facade information still matches. The team can quickly end up with several versions of the same building.</p>
-<p>In a Revit-based BIM workflow, Keyu makes the relevant geometry and material changes in the live project model where possible. Plans, sections, elevations, schedules, and sheets can then read the updated information from the same place. If the model is linked into D5 or another visualisation workflow, the visualisation is based on current coordinated geometry, reducing the risk that material assignments or design changes are lost during export.</p>
+<p>For example, imagine you prepare facade visualisations. In a less coordinated workflow, you might export geometry from Revit, adjust it in Rhino, assign materials, and send it to D5 or another visualisation tool. If the facade geometry or material changes later, those changes may happen outside Revit. In your team, the technical coordinator then needs to update drawings or schedules separately, and the facade coordinator needs to check whether the facade information still matches. The team can quickly end up with several versions of the same building.</p>
+<p>In a Revit-based BIM workflow, you make the relevant geometry and material changes in the live project model where possible. Plans, sections, elevations, schedules, and sheets can then read the updated information from the same place. If the model is linked into D5 or another visualisation workflow, the visualisation is based on current coordinated geometry, reducing the risk that material assignments or design changes are lost during export.</p>
 <h3 id="macleamy-curve">MacLeamy Curve<a class="headerlink" href="#macleamy-curve" title="Permanent link">&para;</a></h3>
 <p>The MacLeamy Curve is a useful way to explain why BIM changes the design process. It compares the ability to influence project outcomes, the cost of making changes, and where design effort usually happens.</p>
 <p><img alt="MacLeamy Curve showing effort, cost of change, traditional design process, and preferred design process" src="../assets/macleamy-curve.jpg" /></p>
