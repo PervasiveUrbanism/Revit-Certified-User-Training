@@ -51,8 +51,8 @@ Introduce callouts for enlarged plans and details. Explain the difference betwee
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Sections](https://help.autodesk.com/view/RVT/2026/ENU/?query=sections)
-- [Elevations](https://help.autodesk.com/view/RVT/2026/ENU/?query=elevations)
-- [Callouts](https://help.autodesk.com/view/RVT/2026/ENU/?query=callouts)
-- [Crop regions](https://help.autodesk.com/view/RVT/2026/ENU/?query=crop%20region)
+
+- [Sections](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-0B7C5662-43EE-4E96-9140-CB346AF6ED5F)
+- [Elevations](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-12D53643-EE94-4556-9409-5E4B534C1E33)
+- [Callouts](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-E9929D3A-ED0B-4478-80E4-C8937A8874EF)
+- [Crop regions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-87B694BA-048C-4190-BA4B-68C136E163E8)

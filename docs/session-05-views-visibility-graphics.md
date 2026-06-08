@@ -99,6 +99,6 @@ Underlays let learners see another level or view reference beneath the current p
 
 - [Visibility and graphics](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-FB8D0ABE-8521-4EA0-A47E-FF3DEBC403A5)
 - [View range](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-58711292-AB78-4C8F-BAA1-0855DDB518BF)
-- [View templates](https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20templates)
-- [3D views and section boxes](https://help.autodesk.com/view/RVT/2026/ENU/?query=3D%20view%20section%20box)
+- [View templates](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DD1AF833-EAA0-4C91-8CF3-EA8BB8B5C3D5)
+- [3D views and section boxes](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-C9EA51CB-3214-4BD8-AD55-3BEB1CCD15B6)
 - [Underlays](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-F03617DC-541D-49CF-B40C-B2537175F561)

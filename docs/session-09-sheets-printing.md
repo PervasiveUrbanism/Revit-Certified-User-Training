@@ -57,8 +57,7 @@ Demonstrate PDF export settings, print setup, and the basic considerations for D
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Sheets](https://help.autodesk.com/view/RVT/2026/ENU/?query=sheets)
-- [Title blocks](https://help.autodesk.com/view/RVT/2026/ENU/?query=title%20blocks)
-- [Viewports](https://help.autodesk.com/view/RVT/2026/ENU/?query=viewports)
-- [Print and export](https://help.autodesk.com/view/RVT/2026/ENU/?query=print%20export%20PDF)
+- [Sheets](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3F663CC2-A83E-409F-94F8-ACE7737AE59C)
+- [Title blocks](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-647C7077-BF9E-45EE-9E14-3614AD974998)
+- [Viewports](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-EC0DAFCB-8958-479B-BDA2-0B265D0CF949)
+- [Print and export](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-ECB1C2B4-AA62-4836-892C-871DA9F7927B)

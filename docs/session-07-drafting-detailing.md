@@ -52,8 +52,7 @@ Demonstrate detail lines, filled regions, masking regions, detail components, an
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Drafting views](https://help.autodesk.com/view/RVT/2026/ENU/?query=drafting%20views)
-- [Detail lines](https://help.autodesk.com/view/RVT/2026/ENU/?query=detail%20lines)
-- [Detail components](https://help.autodesk.com/view/RVT/2026/ENU/?query=detail%20components)
-- [Filled and masking regions](https://help.autodesk.com/view/RVT/2026/ENU/?query=filled%20region%20masking%20region)
+- [Drafting views](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-F4D8EDE8-800D-4760-855B-39F00D069113)
+- [Detail lines](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-A3EE5845-235D-4764-BF6D-3BA89C5C3686)
+- [Detail components](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-9A2E4553-F3D8-4D83-90BA-9FC5166F59C1)
+- [Filled and masking regions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-183D9B1E-6554-4C19-9EA9-B32C8D2A5C9D)

@@ -64,8 +64,8 @@ Then introduce text notes, model text, and tags. Explain that tags display model
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Text notes](https://help.autodesk.com/view/RVT/2026/ENU/?query=text%20notes)
-- [Tags](https://help.autodesk.com/view/RVT/2026/ENU/?query=tags)
-- [Dimensions](https://help.autodesk.com/view/RVT/2026/ENU/?query=dimensions)
-- [Dimension constraints](https://help.autodesk.com/view/RVT/2026/ENU/?query=dimension%20constraints)
+
+- [Text notes](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-7CCCA6E3-B748-4181-A5E2-6FECAAC87C12)
+- [Tags](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-0BF5C1C2-445E-43E6-9680-40C2818A8BAF)
+- [Dimensions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-075D4717-CF41-49A5-872D-E21AD013D2B0)
+- [Dimension constraints](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-836F504C-3AC6-4A4C-BA78-DD65DF734F20)
