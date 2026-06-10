@@ -18,6 +18,7 @@ Control how the model appears in different views and troubleshoot common visibil
 - Visual styles
 - Crop regions
 - View templates
+- Categories, families, types, and instances
 - View range
 - Underlays
 - 3D section boxes
@@ -29,20 +30,46 @@ Explain that Revit views are controlled by view-specific settings. Show the hier
 
 Demonstrate common visibility issues and a systematic troubleshooting process covering hidden elements, reveal hidden elements, category overrides, underlays, view range, phases, discipline settings, and linked model visibility.
 
+## Categories, Families, Types, and Instances
+
+Visibility control in Revit makes much more sense once learners understand the hierarchy of categories, families, types, and instances.
+
+![Diagram showing Revit categories, families, types, and instances](assets/revit-categories-family-types.png)
+
+Categories are the broad built-in groups that Revit uses to organise model and annotation elements. Examples include Walls, Doors, Windows, Floors, Furniture, Generic Models, Rooms, and Dimensions. Categories are not created casually by users; they are part of Revit's structure. They control many important behaviours, including Visibility/Graphics, Object Styles, tags, schedules, filters, cut behaviour, and which tools can create or edit an element.
+
+Families sit inside categories. A door family belongs to the Doors category, a chair family belongs to the Furniture category, and a window family belongs to the Windows category. The category tells Revit how the object behaves at a high level; the family defines the actual geometry, parameters, and rules for a particular object.
+
+Types are variations within a family. For example, one window family might contain several types with different widths, heights, frame arrangements, or materials. Changing a type affects every instance using that type unless a value is instance-specific.
+
+Instances are the individual placed objects in the model. One placed door in one wall is an instance. It belongs to a family, uses a type, and is governed by a category. Instance properties control things that can vary from one placed object to another, such as sill height, mark, comments, or location.
+
+This hierarchy is one of the first checks when troubleshooting visibility:
+
+- If every door is hidden, check the Doors category in Visibility/Graphics.
+- If one door family looks wrong, check the family or type settings.
+- If one placed door is wrong, check the instance properties or whether that instance has been hidden or overridden in the view.
+- If an object cannot be tagged or scheduled as expected, check whether it is in the correct category.
+
+Source reference: [Cosmere Technologies, "Revit Family Types"](https://cosmeretech.com/revit/revit-family-types/).
+
 ## Exercise
 
 1. Duplicate a floor plan as a working view.
 2. Adjust detail level and visual style.
 3. Use Visibility/Graphics overrides.
 4. Temporarily hide and isolate elements.
-5. Create a simple view template.
-6. Apply the template to a second view.
-7. Duplicate views using Duplicate, Duplicate with Detailing, and Duplicate as Dependent.
-8. Create a 3D view and modify a section box boundary.
-9. Create a camera view.
-10. Add an underlay to a plan view and use it to compare geometry from another level.
-11. Create a plan region where a local area needs a different view range.
-12. Diagnose prepared visibility issues.
+5. Select a door, window, wall, and furniture object and identify each element's category, family, type, and instance properties.
+6. Hide one category through Visibility/Graphics, then restore it.
+7. Hide one individual element, then use Reveal Hidden Elements to find it again.
+8. Create a simple view template.
+9. Apply the template to a second view.
+10. Duplicate views using Duplicate, Duplicate with Detailing, and Duplicate as Dependent.
+11. Create a 3D view and modify a section box boundary.
+12. Create a camera view.
+13. Add an underlay to a plan view and use it to compare geometry from another level.
+14. Create a plan region where a local area needs a different view range.
+15. Diagnose prepared visibility issues.
 
 ## View Range
 
@@ -82,6 +109,8 @@ Underlays let learners see another level or view reference beneath the current p
 - [ ] I can use Visibility/Graphics overrides.
 - [ ] I can distinguish temporary and permanent hide.
 - [ ] I can set detail level and visual style.
+- [ ] I can explain the relationship between categories, families, types, and instances.
+- [ ] I can use category, type, and instance checks when troubleshooting visibility.
 - [ ] I can create and apply a view template.
 - [ ] I can explain how top, cut plane, bottom, and view depth affect a plan.
 - [ ] I can use plan regions for local view range exceptions.
