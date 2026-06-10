@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-08T09:26:30+01:00');
+        const date = new Date('2026-06-10T10:49:57+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -795,6 +795,7 @@
 </ul>
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Explain levels as the vertical control system of the project. Show how building elements can be hosted or constrained to levels, and how renaming a level can also rename the associated plan view.</p>
+<p><img alt="Example of levels in Revit" src="../assets/levels-example.gif" /></p>
 <p>Then introduce grids as the project reference system used for coordination, dimensioning, and setting out. Show bubble visibility, extents, grid names, and how datum visibility can differ between views. Place architectural columns on grid intersections so learners understand the exam link between grids and columns.</p>
 <h2 id="architectural-and-structural-columns">Architectural and Structural Columns<a class="headerlink" href="#architectural-and-structural-columns" title="Permanent link">&para;</a></h2>
 <p>Revit has both architectural columns and structural columns. They can look similar in a beginner model, but they carry different meaning and are used for different coordination workflows.</p>
@@ -813,6 +814,16 @@
 <li>Keep the layout simple enough that the datum structure remains the main focus.</li>
 </ul>
 <p>By the end of this session, learners should understand that levels control vertical relationships, grids control setting-out, and walls are easier to manage when they are placed against a clear datum strategy.</p>
+<h2 id="project-positioning">Project Positioning<a class="headerlink" href="#project-positioning" title="Permanent link">&para;</a></h2>
+<p>Revit projects also need a clear positioning strategy. Even in a small training model, learners should understand that the building has an internal coordinate system and that real projects often need to relate to survey, site, and linked consultant models.</p>
+<p>The three key reference concepts are:</p>
+<ul>
+<li>Internal Origin: Revit's fixed internal reference point. It should be treated as the stable mathematical origin of the model.</li>
+<li>Project Base Point: the project team's local reference point. It is often used for a meaningful project coordinate such as a setting-out point or agreed local datum.</li>
+<li>Survey Point: the relationship between the Revit project and a real-world survey coordinate system.</li>
+</ul>
+<p>For this training course, keep the model close to the internal origin and avoid moving the building very far away. Revit has distance limits, and modelling too far from the internal origin can cause display, snapping, accuracy, and coordination problems. In practice, the team should decide the coordinate strategy at the start of a project rather than after models have already been built.</p>
+<p>For now, the exercise is conceptual: identify the project base point, survey point, and internal origin, but do not change the project coordinates unless instructed.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Open an elevation view.</li>
@@ -828,6 +839,7 @@
 <li>Use Align and temporary dimensions to coordinate wall positions with grids.</li>
 <li>Align levels and grids so the datum lines read clearly in elevations and plans. Adjust 2D and 3D extents where needed so the documentation is tidy.</li>
 <li>Create a scope box around the main building area and assign it to relevant plan views. Use it to keep crop regions and datum extents consistent.</li>
+<li>Identify the internal origin, project base point, and survey point.</li>
 <li>Review the Project Browser, rename any unclear views, and remove or ignore duplicate views that are not needed for the exercise.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -842,6 +854,7 @@
 <li>[ ] I can use a scope box to coordinate view crops and datum extents.</li>
 <li>[ ] I can create a simple wall layout using grids as references.</li>
 <li>[ ] I can constrain simple walls between levels.</li>
+<li>[ ] I can describe the internal origin, project base point, and survey point.</li>
 <li>[ ] I can keep view names and datum names consistent.</li>
 </ul>
 <h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">&para;</a></h2>
@@ -857,6 +870,9 @@
 <li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-57084384-4D1E-498A-A6F9-CE5C7260A088">Scope Box</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D28D080E-74DF-4C6D-997D-7B7A8F99C1A2">Columns</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-30D3A26F-42FF-40FA-83D2-B43EA67F3ECD">Walls</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D5CF2C0C-FFC9-4D2C-BE3F-B85D8EC4AE9D">Positioning the model</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-68611F67-ED48-4659-9C3B-59C5024CE5F2">Project base point, survey point, and internal origin</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3F79BF5A-F051-49F3-951E-D3E86F51BECC">Maximum distance limit</a></li>
 </ul>
   </div>
   
@@ -1124,6 +1140,14 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#basic-wall-layout-from-grids');">
             Basic Wall Layout From Grids
+        </a>
+        
+
+        
+        <a href="#project-positioning"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#project-positioning');">
+            Project Positioning
         </a>
         
 

@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-08T09:26:30+01:00');
+        const date = new Date('2026-06-10T10:49:57+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -797,17 +797,36 @@
 <p>Then place doors and windows into walls. Explain hosted behaviour, level placement, flip controls, sill heights, head heights, and why deleting a host wall affects hosted components. Demonstrate wall openings and shaft openings as separate opening tools.</p>
 <p>This session uses a small amount of loaded content so learners understand the normal Revit workflow for doors and windows. The focus is still on placing and controlling hosted elements, not on building a full family library.</p>
 <p>Session 10 will look more closely at where to find appropriate models and families, including office libraries, manufacturer content, and reliable external sources. Session 11 will then introduce the basics of editing and creating families so learners understand how custom content is made.</p>
+<h2 id="wall-types-and-compound-structure">Wall Types and Compound Structure<a class="headerlink" href="#wall-types-and-compound-structure" title="Permanent link">&para;</a></h2>
+<p>Walls are system families. This means they are created and edited inside the project rather than loaded as separate <code>.rfa</code> files. To create a new wall type, duplicate an existing wall type, rename it clearly, and edit its type properties.</p>
+<p>The most important setting is the compound structure. A compound wall is built from layers, and each layer can have a function, material, thickness, and position relative to the core. Typical layer functions include structure, substrate, thermal or air layer, finish, and membrane. Revit uses these layer functions when joining walls, dimensioning to core faces, and representing walls in different levels of detail.</p>
+<p><img alt="Revit wall compound structure example" src="../assets/wall-compound-structure.png" /></p>
+<p>Wall location line controls where the wall is placed relative to the line you draw. For example, a wall can be placed by centreline, core centreline, finish face, or core face. This matters when setting out walls from grids, boundaries, or existing geometry.</p>
+<p>Wall joins control how walls clean up where they meet. Good wall joins make drawings readable, but they should still be checked in plan and section. Where the automatic join is not appropriate, edit the join condition rather than drawing over it with 2D lines.</p>
+<p>Also be aware of related wall tools:</p>
+<ul>
+<li>Wall sweeps add continuous profiles such as skirtings, copings, or bands.</li>
+<li>Wall reveals cut continuous recesses into walls.</li>
+<li>Stacked walls combine different wall types vertically, for example a plinth wall below a different upper wall type.</li>
+</ul>
+<h2 id="curtain-walls">Curtain Walls<a class="headerlink" href="#curtain-walls" title="Permanent link">&para;</a></h2>
+<p>Curtain walls are a special wall system used for glazed facades, screens, storefronts, and panelised wall assemblies. They are still part of the wall toolset, but they introduce grids, mullions, panels, and different editing behaviour.</p>
+<p>For the Autodesk Certified User level, learners should recognise that curtain walls exist and understand that they are not the same as ordinary basic walls. This session can show a short demonstration only: place a simple curtain wall type, add or adjust curtain grids, and point out mullions and panels. Detailed facade design, custom panels, and advanced curtain wall workflows should sit later in the course or in project-specific training.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a simple rectangular floor plan.</li>
 <li>Add internal partitions.</li>
 <li>Adjust wall constraints and location lines.</li>
 <li>Review wall build-up, type properties, and how changing a wall type differs from moving or constraining a wall instance.</li>
+<li>Duplicate a wall type, rename it, and edit its compound structure.</li>
+<li>Change the wall location line and compare the placement result.</li>
+<li>Review wall joins at corners and intersections.</li>
+<li>Briefly place a curtain wall type and identify curtain grids, mullions, and panels.</li>
 <li>Place doors in internal and external walls.</li>
 <li>Place windows and adjust sill heights.</li>
 <li>Review head height and placement level.</li>
 <li>Use flip controls to correct orientation.</li>
-<li>Load a new window family, such as a sash window, using <code>Insert &gt; Load Family</code>. Choose a suitable family from the Revit library or an approved office content folder.</li>
+<li>Load a new window family, such as a sash window, using <code>Insert &gt; Load Family</code>. Choose a suitable family from the Revit online library.</li>
 <li>Place the loaded sash window into an external wall and adjust its sill height, type, and position.</li>
 <li>Create a wall opening and a shaft opening.</li>
 <li>Modify one wall type and compare type and instance changes.</li>
@@ -817,6 +836,9 @@
 <li>[ ] I can draw walls accurately.</li>
 <li>[ ] I can set base and top constraints.</li>
 <li>[ ] I can identify where wall type build-up is edited.</li>
+<li>[ ] I can duplicate a wall type and edit its compound structure.</li>
+<li>[ ] I can explain wall location line and wall joins.</li>
+<li>[ ] I recognise curtain walls as a special wall system.</li>
 <li>[ ] I can place hosted doors and windows.</li>
 <li>[ ] I can load a new door or window family into the project.</li>
 <li>[ ] I can use flip controls.</li>
@@ -827,13 +849,23 @@
 <ul>
 <li>Create variations of wall types.</li>
 <li>Model a small room layout with at least two doors and four windows.</li>
+<li>Place a simple curtain wall and identify one panel and one mullion.</li>
 </ul>
 <h2 id="revit-help-links">Revit Help Links<a class="headerlink" href="#revit-help-links" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-30D3A26F-42FF-40FA-83D2-B43EA67F3ECD">Walls</a></li>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-6CA4C036-034D-4410-A3AB-5CBC492C3A83">Doors</a></li>
-<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-27E9FE5D-6B1D-407C-9DBA-36D61F301DAF">Windows</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-550F4B3E-7D49-4A4F-BEC7-4077D5B9FC85">Walls</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-05A0DA70-E276-4944-ACCA-5702DC8B9DCA">Doors</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-987D9F47-E4C7-4213-8ABE-F61D8CC56D6A">Windows</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-74E575CA-0140-4C5B-B908-4822BBF95857">Openings</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-08E47F82-BFA1-4CAB-B2EA-6C8DC9049AD8">Compound wall structure</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-1CCD1005-CBDA-4338-8D60-489095D4BB25">Layer functions in compound walls</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-475CF556-2EAE-4D6E-906D-4CE6BBE578D9">Video: compound structure in walls</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-19EAF7A9-331F-4271-94CC-43B76B13011E">Wall joins</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-F3AFA160-FB0B-4DFE-82A1-80F52FA97EF9">Wall sweeps</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-517B7AF3-EAB9-4212-95A1-17ADBEA908B7">Wall reveals</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-A470102D-0CD9-4410-9561-DEE4D7C6C057">Stacked walls</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-6CA4C036-034D-4410-A3AB-5CBC492C3A83">Door tutorial</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-27E9FE5D-6B1D-407C-9DBA-36D61F301DAF">Window tutorial</a></li>
 </ul>
   </div>
   
@@ -1085,6 +1117,22 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#demonstration');">
             Demonstration
+        </a>
+        
+
+        
+        <a href="#wall-types-and-compound-structure"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#wall-types-and-compound-structure');">
+            Wall Types and Compound Structure
+        </a>
+        
+
+        
+        <a href="#curtain-walls"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#curtain-walls');">
+            Curtain Walls
         </a>
         
 

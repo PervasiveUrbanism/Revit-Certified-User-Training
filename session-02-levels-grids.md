@@ -26,6 +26,8 @@ Set up the primary datum structure of a Revit project and understand how levels,
 
 Explain levels as the vertical control system of the project. Show how building elements can be hosted or constrained to levels, and how renaming a level can also rename the associated plan view.
 
+![Example of levels in Revit](assets/levels-example.gif)
+
 Then introduce grids as the project reference system used for coordination, dimensioning, and setting out. Show bubble visibility, extents, grid names, and how datum visibility can differ between views. Place architectural columns on grid intersections so learners understand the exam link between grids and columns.
 
 ## Architectural and Structural Columns
@@ -54,6 +56,20 @@ For now, use walls as simple layout elements:
 
 By the end of this session, learners should understand that levels control vertical relationships, grids control setting-out, and walls are easier to manage when they are placed against a clear datum strategy.
 
+## Project Positioning
+
+Revit projects also need a clear positioning strategy. Even in a small training model, learners should understand that the building has an internal coordinate system and that real projects often need to relate to survey, site, and linked consultant models.
+
+The three key reference concepts are:
+
+- Internal Origin: Revit's fixed internal reference point. It should be treated as the stable mathematical origin of the model.
+- Project Base Point: the project team's local reference point. It is often used for a meaningful project coordinate such as a setting-out point or agreed local datum.
+- Survey Point: the relationship between the Revit project and a real-world survey coordinate system.
+
+For this training course, keep the model close to the internal origin and avoid moving the building very far away. Revit has distance limits, and modelling too far from the internal origin can cause display, snapping, accuracy, and coordination problems. In practice, the team should decide the coordinate strategy at the start of a project rather than after models have already been built.
+
+For now, the exercise is conceptual: identify the project base point, survey point, and internal origin, but do not change the project coordinates unless instructed.
+
 ## Exercise
 
 1. Open an elevation view.
@@ -69,7 +85,8 @@ By the end of this session, learners should understand that levels control verti
 11. Use Align and temporary dimensions to coordinate wall positions with grids.
 12. Align levels and grids so the datum lines read clearly in elevations and plans. Adjust 2D and 3D extents where needed so the documentation is tidy.
 13. Create a scope box around the main building area and assign it to relevant plan views. Use it to keep crop regions and datum extents consistent.
-14. Review the Project Browser, rename any unclear views, and remove or ignore duplicate views that are not needed for the exercise.
+14. Identify the internal origin, project base point, and survey point.
+15. Review the Project Browser, rename any unclear views, and remove or ignore duplicate views that are not needed for the exercise.
 
 ## Checklist
 
@@ -83,6 +100,7 @@ By the end of this session, learners should understand that levels control verti
 - [ ] I can use a scope box to coordinate view crops and datum extents.
 - [ ] I can create a simple wall layout using grids as references.
 - [ ] I can constrain simple walls between levels.
+- [ ] I can describe the internal origin, project base point, and survey point.
 - [ ] I can keep view names and datum names consistent.
 
 ## Homework
@@ -99,3 +117,6 @@ By the end of this session, learners should understand that levels control verti
 - [Scope Box](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-57084384-4D1E-498A-A6F9-CE5C7260A088)
 - [Columns](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D28D080E-74DF-4C6D-997D-7B7A8F99C1A2)
 - [Walls](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-30D3A26F-42FF-40FA-83D2-B43EA67F3ECD)
+- [Positioning the model](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D5CF2C0C-FFC9-4D2C-BE3F-B85D8EC4AE9D)
+- [Project base point, survey point, and internal origin](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-68611F67-ED48-4659-9C3B-59C5024CE5F2)
+- [Maximum distance limit](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3F79BF5A-F051-49F3-951E-D3E86F51BECC)

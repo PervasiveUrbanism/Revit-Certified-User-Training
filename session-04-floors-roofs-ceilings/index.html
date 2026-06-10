@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-05T14:32:56+01:00');
+        const date = new Date('2026-06-10T10:49:57+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -798,6 +798,13 @@
 <p>Introduce floors as sketch-based system families. Show manual sketching, Pick Walls, boundary cleanup, and basic floor type layers.</p>
 <p>Then demonstrate Roof by Footprint, overhang settings, slope-defining edges, and attaching walls to roof geometry. Finish by opening a reflected ceiling plan and creating ceilings. Add a focused exam demonstration of sketch draw tools: line, rectangle, start-end-radius arc, pick lines, pick walls, chain selection, Extend into Wall, and Escape, Shift, Alt, Tab, and PageUp during sketch workflows.</p>
 <p>Close the session with a short introduction to straight stairs, ramps, and railings because these are part of the ACU modelling domain.</p>
+<h2 id="roof-types-and-edge-conditions">Roof Types and Edge Conditions<a class="headerlink" href="#roof-types-and-edge-conditions" title="Permanent link">&para;</a></h2>
+<p>Roof types work like other system family types: duplicate an existing type, rename it clearly, then edit the type properties and structure. For the training model, learners should understand the difference between changing a roof instance, changing a roof type, and changing the sketch that defines the roof footprint.</p>
+<p>Roof edges often need additional elements. Eaves describe the projecting lower edge of a roof. Fascia can be added to exposed roof edges. Soffits can close the underside of an overhang. Gutters can be placed along roof edges to represent rainwater collection.</p>
+<p>Dormers are a useful example of how roof modelling becomes more complex. Learners do not need to master dormers in this session, but they should recognise that dormers combine roof geometry, openings, wall conditions, and careful sketch control.</p>
+<h2 id="floor-edges-and-profile-families">Floor Edges and Profile Families<a class="headerlink" href="#floor-edges-and-profile-families" title="Permanent link">&para;</a></h2>
+<p>Floor slab edges are hosted profiles that can be added to floor edges. They are useful for slab thickening, edge beams, or shaped perimeter conditions. In this course, introduce the idea briefly so learners know the tool exists, but keep the main exercise focused on floor boundaries and type layers.</p>
+<p>Profile families control the shape used by tools such as wall sweeps, reveals, fascias, gutters, railings, and slab edges. The detailed creation of profile families belongs later, alongside family editing and custom content. For now, learners only need to understand that these edge tools often rely on a separate profile shape.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a floor using Pick Walls.</li>
@@ -805,6 +812,8 @@
 <li>Review floor type layers.</li>
 <li>Create a roof by footprint.</li>
 <li>Set roof overhangs and slope edges.</li>
+<li>Duplicate a roof type and review its structure.</li>
+<li>Add or discuss eaves, fascia, soffits, and gutters.</li>
 <li>Attach walls to the roof where appropriate.</li>
 <li>Open a reflected ceiling plan and create ceilings.</li>
 <li>Use line, rectangle, arc, pick lines, pick walls, and chain selection in sketch mode.</li>
@@ -816,7 +825,9 @@
 <li>[ ] I can enter and finish sketch mode.</li>
 <li>[ ] I can create floors from wall boundaries.</li>
 <li>[ ] I can create a simple roof by footprint.</li>
+<li>[ ] I can duplicate a roof type and review roof structure.</li>
 <li>[ ] I understand slope-defining edges.</li>
+<li>[ ] I can identify eaves, fascia, soffits, gutters, and slab edges.</li>
 <li>[ ] I can create a reflected ceiling plan.</li>
 <li>[ ] I can use the ACU sketch draw tools.</li>
 <li>[ ] I can place basic stairs, ramps, and railings.</li>
@@ -833,6 +844,15 @@
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DA92880A-0A23-4EB4-A20B-CC70966B7C36">Ceilings</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-B1B305DF-8DBE-44A7-A7C6-16B70A3B580E">Stairs</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-34DEB2F6-E66E-4801-8138-958DDB4D2A5A">Railings</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-0557B197-B1B1-4788-8C8A-69B50047647D">Eaves</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-CAD0E3C1-1B3C-4B5C-B399-A62AE3A0F360">Fascia</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-390A6DAA-8C17-4E6C-8901-109A34ADEFB1">Soffits</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-7DE5AA79-94A8-4912-A7AF-444F64FF5158">Gutters</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-74EF6372-19B6-4D71-AC66-6CE8BE7D29DB">Dormer video</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D54C7E2D-CCCE-4744-9507-0BFCEB6270B5">Floor slab edge</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-62C3B203-3B8E-4798-8CF0-CC166F9BEBFA">Profile families</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-02936CA2-FE9E-4625-A2A6-A45324937847">Floor tutorial</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-5924644F-C73E-4B76-897D-B181EE9F1B16">Roof tutorial</a></li>
 </ul>
   </div>
   
@@ -1084,6 +1104,22 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#demonstration');">
             Demonstration
+        </a>
+        
+
+        
+        <a href="#roof-types-and-edge-conditions"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#roof-types-and-edge-conditions');">
+            Roof Types and Edge Conditions
+        </a>
+        
+
+        
+        <a href="#floor-edges-and-profile-families"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#floor-edges-and-profile-families');">
+            Floor Edges and Profile Families
         </a>
         
 
