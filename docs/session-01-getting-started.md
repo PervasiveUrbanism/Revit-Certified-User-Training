@@ -86,3 +86,4 @@ Then orient learners around the interface:
 - [Project Browser](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-C8D3E5A6-02A5-43A9-AFFC-D49DD27398B1)
 - [Navigate views](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D6D06E2C-17F3-499B-B795-E2980C46BBF2)
 - [Editing Elements](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-33CE9B38-CACD-47D6-936B-01776C4BC324)
+- [Keyboard shortcuts](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D216F1C0-6346-445B-9FA6-74E5FD43D9A4)
