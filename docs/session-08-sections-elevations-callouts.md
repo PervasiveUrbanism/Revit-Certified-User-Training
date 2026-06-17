@@ -9,15 +9,6 @@ Generate coordinated construction documentation views from the model.
 - A simple model with walls, openings, floors, and roof elements
 - Basic visibility and annotation knowledge
 
-## Exercise Files
-
-Download these files before the session:
-
-- [Facade DWG reference file](assets/exercise-files/session-08/AB2000002_VS0403.dwg)
-- [Corbu Rhino reference model](assets/exercise-files/session-08/Corbu.3dm)
-
-Use the DWG as a facade/detail reference when creating callouts and coordinated documentation views. Use the Rhino file as a reference model for discussing imported or linked geometry and how external design information should be controlled in documentation workflows.
-
 ## Key Concepts
 
 - Section views
@@ -44,9 +35,7 @@ Introduce callouts for enlarged plans and details. Explain the difference betwee
 4. Add interior elevations to a room.
 5. Create an enlarged plan callout.
 6. Create a reference callout.
-7. Link or reference the facade DWG in a controlled view and discuss when the linked detail should become a Revit drafting/detail view.
-8. Review the Rhino reference model as external geometry and discuss coordination risks.
-9. Rename and organise the new views.
+7. Rename and organise the new views.
 
 ## Checklist
 
@@ -55,7 +44,6 @@ Introduce callouts for enlarged plans and details. Explain the difference betwee
 - [ ] I can control crop boundaries.
 - [ ] I can create enlarged callouts.
 - [ ] I understand reference callouts.
-- [ ] I can use external DWG or Rhino references without losing control of the Revit documentation set.
 
 ## Homework
 

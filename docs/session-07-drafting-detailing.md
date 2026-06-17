@@ -9,6 +9,15 @@ Create view-specific 2D details and understand when to use drafting tools rather
 - Basic annotation skills
 - Familiarity with plans, sections, and view scales
 
+## Exercise Files
+
+Download these files before the session:
+
+- [Facade DWG reference file](assets/exercise-files/session-07/AB2000002_VS0403.dwg)
+- [Corbu Rhino reference model](assets/exercise-files/session-07/Corbu.3dm)
+
+Use the DWG as the facade/detail reference for linking, tracing, and building clean 2D detail content. Use the Rhino file as a reference for discussing external design geometry and why linked/imported content should be managed carefully.
+
 ## Key Concepts
 
 - Drafting views
