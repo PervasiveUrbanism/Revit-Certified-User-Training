@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-08T09:26:30+01:00');
+        const date = new Date('2026-06-17T10:15:06+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -777,7 +777,7 @@
 <p>Document the model clearly using dimensions, text, notes, and tags.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <ul>
-<li>A simple model with walls, doors, windows, and rooms or spaces</li>
+<li>A simple model with walls, doors, and windows</li>
 <li>Basic view setup confidence</li>
 </ul>
 <h2 id="key-concepts">Key Concepts<a class="headerlink" href="#key-concepts" title="Permanent link">&para;</a></h2>
@@ -800,6 +800,8 @@
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Show how dimensions are placed, edited, and cleaned up. Explain linear, aligned, angular, radial, and diameter dimensions, witness lines, temporary dimensions, equality constraints, locked dimensions, dimension types, and how dimensions support coordination rather than just presentation.</p>
 <p>Then introduce text notes, model text, and tags. Explain that tags display model data, while text is independent annotation. Demonstrate text type duplication, font and size changes, leaders, horizontal and vertical justification, Tag by Category, Tag All, room tags, and editing door or room numbers through tags.</p>
+<p>Room tags are introduced properly in Session 13. In this session, keep the tagging exercise focused on doors and windows so learners understand the tagging principle before room data is added.</p>
+<p>Also demonstrate the basic idea of a tag family. A tag family is an annotation family that reads a parameter from the model element it tags. Learners do not need to build a complex office tag yet, but they should see that tag appearance and displayed labels are controlled by a family, not by ordinary text typed into the view.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Open a floor plan suitable for documentation.</li>
@@ -807,12 +809,13 @@
 <li>Add angular, radial, and diameter dimensions where geometry allows.</li>
 <li>Toggle equality and lock a dimension.</li>
 <li>Adjust witness lines and apply a dimension type.</li>
-<li>Add room or general notes and modify a text type.</li>
+<li>Add general notes and modify a text type.</li>
 <li>Resize, rotate, justify, and add leaders to text.</li>
 <li>Place simple model text.</li>
 <li>Tag doors and windows using Tag by Category and Tag All.</li>
-<li>Edit a door or room number through a tag.</li>
+<li>Edit a door number through a tag.</li>
 <li>Review tag values against model properties.</li>
+<li>Open or create a simple door tag family and identify the label that reads model data.</li>
 <li>Clean up annotation placement for readability.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -823,11 +826,12 @@
 <li>[ ] I understand temporary dimensions.</li>
 <li>[ ] I can use equality, locked dimensions, and dimension types.</li>
 <li>[ ] I can add, align, resize, rotate, and type text with leaders.</li>
-<li>[ ] I can use Tag by Category, Tag All, room tags, and tag-based number edits.</li>
+<li>[ ] I can use Tag by Category, Tag All, and tag-based door number edits.</li>
+<li>[ ] I understand that tag graphics and labels come from tag families.</li>
 </ul>
 <h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Annotate a complete room layout.</li>
+<li>Annotate a simple plan layout.</li>
 <li>Check that tags match the model data they display.</li>
 </ul>
 <h2 id="revit-help-links">Revit Help Links<a class="headerlink" href="#revit-help-links" title="Permanent link">&para;</a></h2>

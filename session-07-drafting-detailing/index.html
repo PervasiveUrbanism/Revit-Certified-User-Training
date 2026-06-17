@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-08T09:26:30+01:00');
+        const date = new Date('2026-06-17T10:15:06+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -795,6 +795,20 @@
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Introduce drafting views as independent 2D views used for details that are not directly modelled. Explain scale management, referencing drafting views, and office detail library workflows.</p>
 <p>Demonstrate detail lines, filled regions, masking regions, detail components, and insulation. Discuss safe CAD linking workflows and why exploding imported CAD can damage model performance.</p>
+<h2 id="2d-detail-component-families">2D Detail Component Families<a class="headerlink" href="#2d-detail-component-families" title="Permanent link">&para;</a></h2>
+<p>Detail components are 2D annotation families used in drafting views and detail views. They are useful for repeated detail items such as people, fixings, brackets, insulation symbols, or standard construction components that do not need to be modelled in 3D.</p>
+<p>To introduce the workflow, create a simple detail component family from a DWG reference:</p>
+<ul>
+<li>Start from a detail component family template.</li>
+<li>Import or link the DWG as a tracing reference.</li>
+<li>Draw clean Revit linework over the useful geometry.</li>
+<li>Add filled regions or masking regions where needed.</li>
+<li>Add a yes/no visibility parameter to control an optional part of the component.</li>
+<li>Load the detail component into the project and place it in a drafting view.</li>
+</ul>
+<p>The important lesson is that office detail libraries should be made from clean Revit annotation elements where possible. Imported CAD can be useful as a starting point, but it should not become uncontrolled linework scattered through the project.</p>
+<h2 id="linking-a-facade-detail">Linking a Facade Detail<a class="headerlink" href="#linking-a-facade-detail" title="Permanent link">&para;</a></h2>
+<p>When using an external facade detail, prefer linking the CAD file into a controlled drafting view rather than importing and exploding it. A linked file can be reloaded, managed, and removed more safely. If the detail needs to become office-standard Revit content, trace or rebuild the necessary parts using Revit detail lines, filled regions, masking regions, and detail components.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a drafting view.</li>
@@ -803,6 +817,10 @@
 <li>Add filled regions and masking regions.</li>
 <li>Place detail components and insulation.</li>
 <li>Add annotations and dimensions.</li>
+<li>Link a facade DWG into a drafting view and review the link settings.</li>
+<li>Create a simple 2D detail component family using a DWG as reference geometry.</li>
+<li>Add a yes/no visibility parameter to an optional part of the detail component.</li>
+<li>Load the detail component into the project and place it in the drafting view.</li>
 <li>Place the drafting view on a detail sheet.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -811,6 +829,9 @@
 <li>[ ] I understand detail lines versus model lines.</li>
 <li>[ ] I can use filled and masking regions.</li>
 <li>[ ] I can place detail components.</li>
+<li>[ ] I can create a simple 2D detail component family.</li>
+<li>[ ] I can add a basic visibility parameter to a detail component.</li>
+<li>[ ] I can link a CAD detail into a controlled drafting view.</li>
 <li>[ ] I can add insulation detail annotation.</li>
 <li>[ ] I understand the risks of importing and exploding CAD.</li>
 </ul>
@@ -824,6 +845,8 @@
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-A3EE5845-235D-4764-BF6D-3BA89C5C3686">Detail lines</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-9A2E4553-F3D8-4D83-90BA-9FC5166F59C1">Detail components</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-183D9B1E-6554-4C19-9EA9-B32C8D2A5C9D">Filled and masking regions</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DEC9135F-75C1-4ACD-B34D-10CBBAD39F4C">Import or link CAD files</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-1F5D1A43-9199-4571-A9EB-0D4B4159C62B">Family parameters</a></li>
 </ul>
   </div>
   
@@ -1075,6 +1098,22 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#demonstration');">
             Demonstration
+        </a>
+        
+
+        
+        <a href="#2d-detail-component-families"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#2d-detail-component-families');">
+            2D Detail Component Families
+        </a>
+        
+
+        
+        <a href="#linking-a-facade-detail"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#linking-a-facade-detail');">
+            Linking a Facade Detail
         </a>
         
 
