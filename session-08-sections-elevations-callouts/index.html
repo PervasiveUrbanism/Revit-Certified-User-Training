@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-17T10:15:06+01:00');
+        const date = new Date('2026-06-17T10:20:04+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -780,13 +780,6 @@
 <li>A simple model with walls, openings, floors, and roof elements</li>
 <li>Basic visibility and annotation knowledge</li>
 </ul>
-<h2 id="exercise-files">Exercise Files<a class="headerlink" href="#exercise-files" title="Permanent link">&para;</a></h2>
-<p>Download these files before the session:</p>
-<ul>
-<li><a href="../assets/exercise-files/session-08/AB2000002_VS0403.dwg">Facade DWG reference file</a></li>
-<li><a href="../assets/exercise-files/session-08/Corbu.3dm">Corbu Rhino reference model</a></li>
-</ul>
-<p>Use the DWG as a facade/detail reference when creating callouts and coordinated documentation views. Use the Rhino file as a reference model for discussing imported or linked geometry and how external design information should be controlled in documentation workflows.</p>
 <h2 id="key-concepts">Key Concepts<a class="headerlink" href="#key-concepts" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Section views</li>
@@ -810,8 +803,6 @@
 <li>Add interior elevations to a room.</li>
 <li>Create an enlarged plan callout.</li>
 <li>Create a reference callout.</li>
-<li>Link or reference the facade DWG in a controlled view and discuss when the linked detail should become a Revit drafting/detail view.</li>
-<li>Review the Rhino reference model as external geometry and discuss coordination risks.</li>
 <li>Rename and organise the new views.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -821,7 +812,6 @@
 <li>[ ] I can control crop boundaries.</li>
 <li>[ ] I can create enlarged callouts.</li>
 <li>[ ] I understand reference callouts.</li>
-<li>[ ] I can use external DWG or Rhino references without losing control of the Revit documentation set.</li>
 </ul>
 <h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1068,14 +1058,6 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#prerequisites');">
             Prerequisites
-        </a>
-        
-
-        
-        <a href="#exercise-files"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#exercise-files');">
-            Exercise Files
         </a>
         
 
