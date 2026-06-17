@@ -63,15 +63,13 @@ Also demonstrate the basic idea of a tag family. A tag family is an annotation f
 - [ ] I can use Tag by Category, Tag All, and tag-based door number edits.
 - [ ] I understand that tag graphics and labels come from tag families.
 
-## Homework
 
-- Annotate a simple plan layout.
-- Check that tags match the model data they display.
 
 ## Revit Help Links
 
 
 - [Text notes](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-7CCCA6E3-B748-4181-A5E2-6FECAAC87C12)
 - [Tags](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-0BF5C1C2-445E-43E6-9680-40C2818A8BAF)
+- [Tag Tutorial](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-1383D1BB-0FBA-40FB-9DCB-26E404835454)
 - [Dimensions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-075D4717-CF41-49A5-872D-E21AD013D2B0)
 - [Dimension constraints](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-836F504C-3AC6-4A4C-BA78-DD65DF734F20)

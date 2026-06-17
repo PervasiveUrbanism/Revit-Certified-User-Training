@@ -81,9 +81,7 @@ When using an external facade detail, prefer linking the CAD file into a control
 - [ ] I can add insulation detail annotation.
 - [ ] I understand the risks of importing and exploding CAD.
 
-## Homework
 
-- Recreate a simple construction detail from a PDF or CAD reference.
 
 ## Revit Help Links
 
@@ -91,5 +89,5 @@ When using an external facade detail, prefer linking the CAD file into a control
 - [Detail lines](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-A3EE5845-235D-4764-BF6D-3BA89C5C3686)
 - [Detail components](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-9A2E4553-F3D8-4D83-90BA-9FC5166F59C1)
 - [Filled and masking regions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-183D9B1E-6554-4C19-9EA9-B32C8D2A5C9D)
-- [Import or link CAD files](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DEC9135F-75C1-4ACD-B34D-10CBBAD39F4C)
-- [Family parameters](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-1F5D1A43-9199-4571-A9EB-0D4B4159C62B)
+- [Import or link CAD files](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-E8705303-0610-4A82-9118-0C3A742706D2)
+
