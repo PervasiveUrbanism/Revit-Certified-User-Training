@@ -58,3 +58,5 @@ Finish with an exam-style review: time management, navigation strategy, keyboard
 - [Warnings](https://help.autodesk.com/view/RVT/2026/ENU/?query=warnings)
 - [View range](https://help.autodesk.com/view/RVT/2026/ENU/?query=view%20range)
 - [Autodesk certification overview](https://www.autodesk.com/certification/architecture-engineering-construction-certification)
+
+- [Getting started](https://www.autodesk.com/learn/ondemand/course/review-the-basics-of-model-authoring-in-revit)

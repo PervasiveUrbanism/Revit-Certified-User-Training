@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-17T10:20:04+01:00');
+        const date = new Date('2026-06-18T09:39:02+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -773,7 +773,8 @@
     </div>
   </div>
   <div class="typography w-full flex-1 *:data-[slot=alert]:first:mt-0">
-    <h2 id="goal">Goal<a class="headerlink" href="#goal" title="Permanent link">&para;</a></h2>
+    <p><img alt="Revit model with coordinated section, elevation, and callout views" src="../assets/sections-elevations-callouts.png" /></p>
+<h2 id="goal">Goal<a class="headerlink" href="#goal" title="Permanent link">&para;</a></h2>
 <p>Generate coordinated construction documentation views from the model.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <ul>
@@ -795,6 +796,14 @@
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Show how sections and elevations are generated from the model, then explain how extents, crop regions, far clipping, and detail level control what each view shows.</p>
 <p>Introduce callouts for enlarged plans and details. Explain the difference between creating a new callout view and referencing an existing view.</p>
+<h2 id="depth-cueing">Depth Cueing<a class="headerlink" href="#depth-cueing" title="Permanent link">&para;</a></h2>
+<p>Depth cueing helps elevations and sections communicate distance by fading elements that are farther away from the view position. It can improve legibility in deep views where foreground and background elements would otherwise have the same visual weight.</p>
+<p><img alt="Elevation view demonstrating depth cueing" src="../assets/depth-cueing.png" /></p>
+<p>Depth cueing is controlled in the view's Graphic Display Options. Learners should adjust the fade start and end distances carefully, then check that important background geometry remains readable. It is a presentation tool rather than a replacement for good crop regions, far clipping, lineweights, or view organisation.</p>
+<h2 id="displacement-sets">Displacement Sets<a class="headerlink" href="#displacement-sets" title="Permanent link">&para;</a></h2>
+<p>Displacement sets create exploded or separated representations of model elements within a view without physically moving those elements in the model. They are useful for diagrams, assembly explanations, and presentations that need to show how components relate to each other.</p>
+<p><img alt="Revit displaced view showing separated model components" src="../assets/displacement-sets.png" /></p>
+<p>A displacement set is view-specific. The underlying model remains coordinated in its original position, while the selected elements appear displaced only in that view. Displacement paths can be added to show where elements came from. Use displaced views deliberately: they are excellent for explanation, but they should not be mistaken for construction geometry or actual model coordinates.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a building section.</li>
@@ -803,6 +812,8 @@
 <li>Add interior elevations to a room.</li>
 <li>Create an enlarged plan callout.</li>
 <li>Create a reference callout.</li>
+<li>Apply depth cueing to an elevation or section and compare the result.</li>
+<li>Create a simple displacement set in a 3D view and add displacement paths.</li>
 <li>Rename and organise the new views.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -812,17 +823,19 @@
 <li>[ ] I can control crop boundaries.</li>
 <li>[ ] I can create enlarged callouts.</li>
 <li>[ ] I understand reference callouts.</li>
-</ul>
-<h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Produce one coordinated drawing sheet using a plan, section, and elevation.</li>
+<li>[ ] I can use depth cueing to improve section or elevation legibility.</li>
+<li>[ ] I understand that displacement sets are view-specific representations.</li>
 </ul>
 <h2 id="revit-help-links">Revit Help Links<a class="headerlink" href="#revit-help-links" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-A53A29E3-3A3C-495E-B6F1-C252097D38F5">Video: Create Views of Your Model</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-0B7C5662-43EE-4E96-9140-CB346AF6ED5F">Sections</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-12D53643-EE94-4556-9409-5E4B534C1E33">Elevations</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-E902C0EC-64CA-45AC-ABA5-5BC63A5E2647">Create Elevation Views Tutorial</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-E9929D3A-ED0B-4478-80E4-C8937A8874EF">Callouts</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-87B694BA-048C-4190-BA4B-68C136E163E8">Crop regions</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-831603AC-F6F4-448F-9892-39E3A30D1E96">Video: Depth Cueing</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3C9F4A48-40DD-4160-B1C3-6100CDA07567">Video: Work with Displaced Views</a></li>
 </ul>
   </div>
   
@@ -1078,6 +1091,22 @@
         
 
         
+        <a href="#depth-cueing"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#depth-cueing');">
+            Depth Cueing
+        </a>
+        
+
+        
+        <a href="#displacement-sets"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#displacement-sets');">
+            Displacement Sets
+        </a>
+        
+
+        
         <a href="#exercise"
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#exercise');">
@@ -1090,14 +1119,6 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#checklist');">
             Checklist
-        </a>
-        
-
-        
-        <a href="#homework"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#homework');">
-            Homework
         </a>
         
 
