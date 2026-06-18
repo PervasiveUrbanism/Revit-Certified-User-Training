@@ -764,7 +764,7 @@
 <script>
     const updatedAt = document.getElementById("updated_at");
     if (updatedAt) {
-        const date = new Date('2026-06-18T09:39:02+01:00');
+        const date = new Date('2026-06-18T10:02:03+01:00');
         updatedAt.textContent = date.toLocaleDateString();
     }
 </script>
@@ -792,6 +792,7 @@
 <li>Crop boundaries</li>
 <li>Callouts</li>
 <li>Reference callouts</li>
+<li>Solar studies</li>
 </ul>
 <h2 id="demonstration">Demonstration<a class="headerlink" href="#demonstration" title="Permanent link">&para;</a></h2>
 <p>Show how sections and elevations are generated from the model, then explain how extents, crop regions, far clipping, and detail level control what each view shows.</p>
@@ -804,6 +805,11 @@
 <p>Displacement sets create exploded or separated representations of model elements within a view without physically moving those elements in the model. They are useful for diagrams, assembly explanations, and presentations that need to show how components relate to each other.</p>
 <p><img alt="Revit displaced view showing separated model components" src="../assets/displacement-sets.png" /></p>
 <p>A displacement set is view-specific. The underlying model remains coordinated in its original position, while the selected elements appear displaced only in that view. Displacement paths can be added to show where elements came from. Use displaced views deliberately: they are excellent for explanation, but they should not be mistaken for construction geometry or actual model coordinates.</p>
+<h2 id="solar-studies">Solar Studies<a class="headerlink" href="#solar-studies" title="Permanent link">&para;</a></h2>
+<p>Solar studies show how sunlight and shadows affect the model at a chosen location, date, and time. They can support early design decisions about orientation, facade shading, daylight access, external spaces, and the relationship between neighbouring buildings.</p>
+<p><img alt="Revit solar study showing sunlight and shadows on a model" src="../assets/solar-study.png" /></p>
+<p>Before running a solar study, check the project location, true north, and sun settings. Choose whether the study represents a still image, a single day, or a multi-day period. A solar study is a design and communication tool; its usefulness depends on accurate project location and orientation data.</p>
+<p>For this session, create a simple still solar study in a 3D view. Change the date or time and compare the shadow pattern. The aim is to understand the workflow and its visual impact rather than perform a detailed environmental analysis.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a building section.</li>
@@ -814,6 +820,7 @@
 <li>Create a reference callout.</li>
 <li>Apply depth cueing to an elevation or section and compare the result.</li>
 <li>Create a simple displacement set in a 3D view and add displacement paths.</li>
+<li>Create a still solar study and compare shadows at two different times.</li>
 <li>Rename and organise the new views.</li>
 </ol>
 <h2 id="checklist">Checklist<a class="headerlink" href="#checklist" title="Permanent link">&para;</a></h2>
@@ -825,6 +832,7 @@
 <li>[ ] I understand reference callouts.</li>
 <li>[ ] I can use depth cueing to improve section or elevation legibility.</li>
 <li>[ ] I understand that displacement sets are view-specific representations.</li>
+<li>[ ] I can set up a simple solar study and adjust its date or time.</li>
 </ul>
 <h2 id="revit-help-links">Revit Help Links<a class="headerlink" href="#revit-help-links" title="Permanent link">&para;</a></h2>
 <ul>
@@ -836,6 +844,8 @@
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-87B694BA-048C-4190-BA4B-68C136E163E8">Crop regions</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-831603AC-F6F4-448F-9892-39E3A30D1E96">Video: Depth Cueing</a></li>
 <li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3C9F4A48-40DD-4160-B1C3-6100CDA07567">Video: Work with Displaced Views</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-F68D32C9-0391-4115-95C5-90DCD115426A">Solar studies</a></li>
+<li><a href="https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DF06298C-1D98-4BB8-9D7F-A4EFFADC67C2">Video: Perform a Solar Study</a></li>
 </ul>
   </div>
   
@@ -1103,6 +1113,14 @@
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#displacement-sets');">
             Displacement Sets
+        </a>
+        
+
+        
+        <a href="#solar-studies"
+            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
+            data-active="false" data-depth="2" onClick="deferSetActiveTocLink('#solar-studies');">
+            Solar Studies
         </a>
         
 

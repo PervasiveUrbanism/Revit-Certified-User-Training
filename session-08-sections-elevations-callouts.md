@@ -22,6 +22,7 @@ Generate coordinated construction documentation views from the model.
 - Crop boundaries
 - Callouts
 - Reference callouts
+- Solar studies
 
 ## Demonstration
 
@@ -45,6 +46,16 @@ Displacement sets create exploded or separated representations of model elements
 
 A displacement set is view-specific. The underlying model remains coordinated in its original position, while the selected elements appear displaced only in that view. Displacement paths can be added to show where elements came from. Use displaced views deliberately: they are excellent for explanation, but they should not be mistaken for construction geometry or actual model coordinates.
 
+## Solar Studies
+
+Solar studies show how sunlight and shadows affect the model at a chosen location, date, and time. They can support early design decisions about orientation, facade shading, daylight access, external spaces, and the relationship between neighbouring buildings.
+
+![Revit solar study showing sunlight and shadows on a model](assets/solar-study.png)
+
+Before running a solar study, check the project location, true north, and sun settings. Choose whether the study represents a still image, a single day, or a multi-day period. A solar study is a design and communication tool; its usefulness depends on accurate project location and orientation data.
+
+For this session, create a simple still solar study in a 3D view. Change the date or time and compare the shadow pattern. The aim is to understand the workflow and its visual impact rather than perform a detailed environmental analysis.
+
 ## Exercise
 
 1. Create a building section.
@@ -55,7 +66,8 @@ A displacement set is view-specific. The underlying model remains coordinated in
 6. Create a reference callout.
 7. Apply depth cueing to an elevation or section and compare the result.
 8. Create a simple displacement set in a 3D view and add displacement paths.
-9. Rename and organise the new views.
+9. Create a still solar study and compare shadows at two different times.
+10. Rename and organise the new views.
 
 ## Checklist
 
@@ -66,6 +78,7 @@ A displacement set is view-specific. The underlying model remains coordinated in
 - [ ] I understand reference callouts.
 - [ ] I can use depth cueing to improve section or elevation legibility.
 - [ ] I understand that displacement sets are view-specific representations.
+- [ ] I can set up a simple solar study and adjust its date or time.
 
 ## Revit Help Links
 
@@ -77,3 +90,5 @@ A displacement set is view-specific. The underlying model remains coordinated in
 - [Crop regions](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-87B694BA-048C-4190-BA4B-68C136E163E8)
 - [Video: Depth Cueing](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-831603AC-F6F4-448F-9892-39E3A30D1E96)
 - [Video: Work with Displaced Views](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-3C9F4A48-40DD-4160-B1C3-6100CDA07567)
+- [Solar studies](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-F68D32C9-0391-4115-95C5-90DCD115426A)
+- [Video: Perform a Solar Study](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-DF06298C-1D98-4BB8-9D7F-A4EFFADC67C2)
