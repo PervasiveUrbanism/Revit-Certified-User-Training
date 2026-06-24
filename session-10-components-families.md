@@ -25,21 +25,15 @@ Place and edit Revit families while understanding family categories and placemen
 
 Explain families as the building blocks of Revit projects. Compare system families, loadable families, and in-place families, and discuss when each is appropriate.
 
-Demonstrate component placement, rotation, mirroring, hosting requirements, and basic family type editing. Include duplicate, rename, and modify workflows for existing family types, including width, height, wall layer thickness, and material reassignment.
+Demonstrate in place families and the basic modelling tools.
 
 ## Exercise
 
-1. Load a window family into the project.
-2. Place a hosted window family in an external wall.
-3. Load a furniture family into the project.
-4. Place a non-hosted furniture family in a room.
-5. Rotate and mirror components.
-6. Duplicate and modify a family type.
-7. Change width and height parameter values where available.
-8. Modify wall layer thickness on a wall type.
-9. Reassign a material to an element or part of an element.
-10. Review type and instance parameters.
-11. Review office family naming standards.
+1. Discuss where to find families
+2. Load an external window family into the project.
+3. Discuss the different types of families (2D families, hosted families etc. ) and where / when to use them.
+4. Create an In Place family - for example a door or a table.
+
 
 ## Finding Families
 
@@ -58,8 +52,7 @@ For this lesson, the main hosted family will be a window family and the main non
 - [ ] I can load a family.
 - [ ] I can place hosted and non-hosted components.
 - [ ] I can modify family types.
-- [ ] I can adjust width, height, wall layer thickness, and material values.
-- [ ] I understand basic family parameters.
+- [ ] I know the basic family modelling tools
 
 ## Homework
 
@@ -67,7 +60,6 @@ For this lesson, the main hosted family will be a window family and the main non
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Loadable Families](https://help.autodesk.com/view/RVT/2026/ENU/?query=load%20families)
-- [Components](https://help.autodesk.com/view/RVT/2026/ENU/?query=place%20a%20component)
-- [Family Types](https://help.autodesk.com/view/RVT/2026/ENU/?query=family%20types)
+- [Loadable Families](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-72772502-CF67-4609-84EA-87128B4B453C)
+- [In-Place Elements](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-B63B71A6-E8F2-40C9-9CAC-FFB738C431E4)
+- [Family Editor Tools](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-253B2300-35C2-4024-AB70-43E576CEA49C)
