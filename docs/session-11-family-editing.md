@@ -45,10 +45,6 @@ Demonstrate creating a simple extrusion, constraining it to reference planes, ad
 - [ ] I can create simple parameters.
 - [ ] I can load a family into a project.
 
-## Homework
-
-- Modify an existing family.
-- Add one new type to the family and test it in a project.
 
 ## Revit Help Links
 

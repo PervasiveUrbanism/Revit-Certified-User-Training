@@ -50,10 +50,7 @@ Demonstrate PDF export settings, print setup, and the basic considerations for D
 - [ ] I can check view scale before printing.
 - [ ] I can export a PDF.
 
-## Homework
 
-- Create a small presentation sheet set.
-- Export the sheet set as PDFs.
 
 ## Revit Help Links
 

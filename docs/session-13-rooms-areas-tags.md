@@ -21,6 +21,7 @@ Use spatial elements for room data, tagging, schedules, and area-based workflows
 - Area schemes
 - Area plans
 - Colour schemes
+- Legend Views
 
 ## Demonstration
 
@@ -48,15 +49,20 @@ Demonstrate room tags, room data consistency, room bounding settings on elements
 - [ ] I can create a room schedule.
 - [ ] I understand the basics of area plans.
 
-## Homework
 
-- Create a complete room data sheet.
-- Review office naming and numbering standards.
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Rooms](https://help.autodesk.com/view/RVT/2026/ENU/?query=rooms)
+### Rooms
+- [Rooms](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-3D8B61D3-38C6-4B8F-97E1-797A05F5C5AD)
 - [Room tags](https://help.autodesk.com/view/RVT/2026/ENU/?query=room%20tags)
 - [Room separation lines](https://help.autodesk.com/view/RVT/2026/ENU/?query=room%20separation%20lines)
+- [About Room-Aware Families](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-D3AFF8AC-0175-4D89-B3F4-EEDCD128616C)
+- [Understanding Room Areas and Volume](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-22B6D041-F6D8-4DB0-8094-B325CC3CC6B4)
+
+### Areas
 - [Area plans](https://help.autodesk.com/view/RVT/2026/ENU/?query=area%20plans)
+- [Color Schemes](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-4809E31D-8385-4EB9-89C2-B58D7FB25B00)
+
+### Legends
+[Help | Legend Views | Autodesk](https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-8F1CE188-B15E-4C74-9247-C58F97DF7659)

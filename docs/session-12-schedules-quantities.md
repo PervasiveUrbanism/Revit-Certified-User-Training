@@ -37,11 +37,10 @@ Demonstrate door, window, and room schedules. Use schedules as quality-control t
 3. Sort and group schedule data.
 4. Filter the schedule.
 5. Create a window schedule.
-6. Create a room schedule.
-7. Toggle Itemize every instance.
-8. Enter and modify schedule data.
-9. Apply simple formatting.
-10. Place a schedule on a sheet.
+6. Toggle Itemize every instance.
+7. Enter and modify schedule data.
+8. Apply simple formatting.
+9. Place a schedule on a sheet.
 
 ## Checklist
 
@@ -53,15 +52,9 @@ Demonstrate door, window, and room schedules. Use schedules as quality-control t
 - [ ] I can enter and modify schedule data.
 - [ ] I can use schedules for quality control.
 
-## Homework
 
-- Create a furniture schedule.
-- Review office schedule standards.
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
 - [Schedules](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-DocumentPresent/files/GUID-F50D6FF4-859E-43A2-A2F6-81C84A1BA0EB.htm)
 - [Create a Schedule or Quantity](https://help.autodesk.com/cloudhelp/2026/ENU/Revit-DocumentPresent/files/GUID-6D4DBBDA-3611-40CD-9A45-BE40EB07188A.htm)
-- [Sorting and grouping schedules](https://help.autodesk.com/view/RVT/2026/ENU/?query=schedule%20sorting%20grouping)
-- [Itemize every instance](https://help.autodesk.com/view/RVT/2026/ENU/?query=itemize%20every%20instance)
