@@ -54,9 +54,7 @@ For this lesson, the main hosted family will be a window family and the main non
 - [ ] I can modify family types.
 - [ ] I know the basic family modelling tools
 
-## Homework
 
-- Place and organise furniture in a sample plan.
 
 ## Revit Help Links
 
