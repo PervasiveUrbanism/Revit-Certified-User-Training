@@ -4,6 +4,8 @@
 
 Understand central/local file workflows, worksets, ownership, and collaboration habits that keep Revit projects stable.
 
+![Revit worksharing workflow showing local models synchronising with a central model](assets/worksharing-collaboration.png)
+
 ## Prerequisites
 
 - Basic model navigation and editing confidence

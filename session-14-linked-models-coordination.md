@@ -53,8 +53,8 @@ Introduce Internal Origin, Project Base Point, and Survey Point. Explain the dif
 
 ## Revit Help Links
 
-- [Revit Help](https://help.autodesk.com/view/RVT/2026/ENU/)
-- [Link Revit models](https://help.autodesk.com/view/RVT/2026/ENU/?query=link%20Revit%20models)
 - [Manage links](https://help.autodesk.com/view/RVT/2026/ENU/?query=manage%20links)
-- [Shared coordinates](https://help.autodesk.com/view/RVT/2026/ENU/?query=shared%20coordinates)
+- [Help | Shared Positioning](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-049BE99D-249F-4D1F-A79C-A348955AB49C)
+- [Help | Video: Shared Positioning](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-D463F393-ECD5-42DD-B396-7E56037D772A)
+- [Help | About Shared Coordinates](https://help.autodesk.com/view/RVT/2026/ENU/?guid=GUID-B82147D6-7EAB-48AB-B0C3-3B160E2DCD17)
 - [Project Base Point and Survey Point](https://help.autodesk.com/view/RVT/2026/ENU/?query=Project%20Base%20Point%20Survey%20Point)
